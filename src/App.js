@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Header from './components/Header'
+import Home from './components/home/Home'
+import Livability from './components/livability/Livability'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/home' element={<Home />}></Route>
+          <Route path='/livability' element={<Livability />}></Route>
+        </Routes>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+//  <Link to='home' style={linkStyle}>
+//     Home
+//   </Link>
+//   |
+//   <Link to='livability' style={linkStyle}>
+//     Livability
+//   </Link>
+//   |
+//   <Link to='quiz' style={linkStyle}>
+//     Quiz
+//   </Link>
+//   |
+//   <Link to='projects' style={linkStyle}>
+//     Projects
+//   </Link>
+//   |
+//   <Link to='about' style={linkStyle}>
+//     About
+//   </Link>
