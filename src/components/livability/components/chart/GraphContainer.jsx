@@ -14,13 +14,23 @@ const GraphContainer = () => {
   let fit_direction = null
   let no_fit_direction = null
 
-  const bigObject = ChartPrepper(city)
-  fit = bigObject[0].category
-  fit_direction = bigObject[0].direction
-  no_fit = bigObject[1].category
-  no_fit_direction = bigObject[1].direction
-  cityInfo = bigObject[2]
-  data = bigObject[3]
+  // const bigObject = ChartPrepper(city)
+  // fit = bigObject[0].category
+  // fit_direction = bigObject[0].direction
+  // no_fit = bigObject[1].category
+  // no_fit_direction = bigObject[1].direction
+  // cityInfo = bigObject[2]
+  // data = bigObject[3]
+
+  let bigObject = ChartPrepper(city)
+  if (bigObject.length === 4) {
+    fit = bigObject[0].category
+    fit_direction = bigObject[0].direction
+    no_fit = bigObject[1].category
+    no_fit_direction = bigObject[1].direction
+    cityInfo = bigObject[2]
+    data = bigObject[3]
+  }
 
   return (
     <div className='container'>
