@@ -52,7 +52,7 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
     alert(answers)
   }
   return (
-    <div classNmae='quiz-container'>
+    <div className='quiz-container'>
       {intro ? (
         <div>
           <div className='quiz-start'>

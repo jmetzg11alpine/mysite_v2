@@ -88,14 +88,8 @@ const find_min = (array) => {
 }
 
 const FindCategories = (city, data, stats) => {
-  try {
-    let city_info = get_city_stats(city, data)
-    // return fit no_fit city_info data
-    return get_categories(city_info, stats, data)
-  } catch {
-    console.log('data did not load quick enough')
-    setTimeout(FindCategories(city, data, stats), 200)
-  }
+  let city_info = get_city_stats(city, data)
+  return get_categories(city_info, stats, data)
 }
 
 export default FindCategories
