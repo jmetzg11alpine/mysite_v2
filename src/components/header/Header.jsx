@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './header.css'
 
 const linkStyle = {
   textDecoration: 'none',
@@ -8,7 +9,7 @@ const linkStyle = {
 const Header = () => {
   return (
     <div className='header'>
-      <Link to='/home' style={linkStyle}>
+      <Link to='/' style={linkStyle}>
         Home
       </Link>
       |

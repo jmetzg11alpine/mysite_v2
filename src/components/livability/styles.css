@@ -1,0 +1,80 @@
+.nav-livability {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #aaabbc;
+  height: 3.5vh;
+  font-size: 2vh;
+  text-decoration: 'none';
+  color: white;
+}
+
+.svg {
+  font-weight: 100;
+  color: #d3d3d3;
+}
+
+.container {
+  margin: 4px 6px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2vh 2vw;
+  padding: 1px;
+}
+.fit_title {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.fit_container {
+  margin: 2vh 2vw;
+}
+.graph-container {
+  margin: 1.5vh 0;
+  border-radius: 0.8vw;
+  border: 1px solid #d3d3d3;
+  padding: 0.4vw;
+}
+
+.one-graph {
+  margin: 5px;
+}
+
+.city_title {
+  text-align: center;
+  /* padding-top: 1vh; */
+  margin-top: 2.5vh;
+  margin-bottom: -1.5vh;
+}
+
+.graph-title {
+  font-size: 1.8vh;
+  display: flex;
+}
+
+.image {
+  height: 2vh;
+  width: 1.6vw;
+}
+
+.glossary-container {
+  margin-left: 1.5vw;
+}
+
+.Glossary {
+  margin-bottom: 1vh;
+}
+
+.row {
+  display: flex;
+}
+
+.cell-text {
+  font-size: 1.6vh;
+  width: 20vw;
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+}
