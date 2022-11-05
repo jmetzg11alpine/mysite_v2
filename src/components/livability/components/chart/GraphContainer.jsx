@@ -23,7 +23,7 @@ const GraphContainer = () => {
   // data = bigObject[3]
 
   let bigObject = ChartPrepper(city)
-  if (bigObject.length === 4) {
+  if (bigObject) {
     fit = bigObject[0].category
     fit_direction = bigObject[0].direction
     no_fit = bigObject[1].category
