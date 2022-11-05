@@ -170,7 +170,6 @@ const Graph = ({ category, data, cityInfo, city, fit, direction }) => {
     textLength,
   ])
 
-  console.log(graphText, graphText.length, typeof graphText)
   return (
     <div className='graph_container_1'>
       <div id='ReferenceD3'>

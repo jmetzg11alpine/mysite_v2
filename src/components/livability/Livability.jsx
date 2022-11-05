@@ -14,7 +14,7 @@ const Livability = () => {
         <Link to='' style={linkStyle}>
           Cities
         </Link>
-        |
+        -
         <Link to='data_flow' style={linkStyle}>
           Data Flow
         </Link>

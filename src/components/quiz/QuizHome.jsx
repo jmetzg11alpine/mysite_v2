@@ -3,7 +3,7 @@ import './components/styles/nav.css'
 
 const linkStyle = {
   textDecoration: 'none',
-  color: 'black',
+  color: 'white',
 }
 
 const Quiz = () => {
@@ -13,15 +13,19 @@ const Quiz = () => {
         <Link to='' style={linkStyle}>
           Quizzes
         </Link>
+        -
         <Link to='q1' style={linkStyle}>
           Quiz 1
         </Link>
+        -
         <Link to='q2' style={linkStyle}>
           Quiz 2
         </Link>
+        -
         <Link to='q3' style={linkStyle}>
           Quiz 3
         </Link>
+        -
         <Link to='q4' style={linkStyle}>
           Quiz 4
         </Link>
