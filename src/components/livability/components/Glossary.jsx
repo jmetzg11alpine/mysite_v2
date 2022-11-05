@@ -1,7 +1,9 @@
 const Glossary = () => {
   return (
     <div className='glossary-container'>
-      <h3 className='Glossary'>Glossary</h3>
+      <div className='glossary-title-container'>
+        <h3 className='Glossary'>Glossary</h3>
+      </div>
       <table>
         <tr className='row'>
           <td>
@@ -61,8 +63,10 @@ const Glossary = () => {
           </td>
           <td className='cell-text'>ufo count</td>
         </tr>
-      </table>
-      <p>Data has been tampered with and shouldn't be taken literally</p>
+      </table>{' '}
+      <p className='data-desclaimer'>
+        *Data has been tampered with and shouldn't be taken literally*
+      </p>
     </div>
   )
 }

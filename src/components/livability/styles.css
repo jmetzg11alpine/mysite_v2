@@ -39,6 +39,12 @@
   padding: 0.4vw;
 }
 
+.glossary-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
 .one-graph {
   margin: 5px;
 }
@@ -64,10 +70,6 @@
   margin-left: 1.5vw;
 }
 
-.Glossary {
-  margin-bottom: 1vh;
-}
-
 .row {
   display: flex;
 }
@@ -77,4 +79,8 @@
   width: 20vw;
   margin-left: 2vw;
   margin-bottom: 2vh;
+}
+
+.data-desclaimer {
+  font-size: 1.4vh;
 }
