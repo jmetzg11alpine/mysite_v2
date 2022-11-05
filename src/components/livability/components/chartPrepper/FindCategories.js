@@ -6,47 +6,20 @@ const get_city_stats = (city, data) => {
   }
 }
 
-// const get_categories = (city_info, stats, data) => {
-//   let fit = { category: [], score: [], direction: [] }
-//   let no_fit = { category: [], score: [], direction: [] }
-//   for (let i in stats) {
-//     let category = stats[i]['category']
-//     let mean = stats[i]['mean']
-//     let std = stats[i]['std']
-//     let city_value = city_info[category]
-
-//     let [score, direction] = get_score(city_value, mean, std)
-
-//     fill_fit(fit, score, category, direction)
-//     fill_no_fit(no_fit, score, category, direction)
-//   }
-//   return [fit, no_fit, city_info, data]
-// }
-
-// try error handling
 const get_categories = (city_info, stats, data) => {
   let fit = { category: [], score: [], direction: [] }
   let no_fit = { category: [], score: [], direction: [] }
-  let tryAgain = true
-  while (tryAgain) {
-    try {
-      for (let i in stats) {
-        let category = stats[i]['category']
-        let mean = stats[i]['mean']
-        let std = stats[i]['std']
-        let city_value = city_info[category]
+  for (let i in stats) {
+    let category = stats[i]['category']
+    let mean = stats[i]['mean']
+    let std = stats[i]['std']
+    let city_value = city_info[category]
 
-        let [score, direction] = get_score(city_value, mean, std)
+    let [score, direction] = get_score(city_value, mean, std)
 
-        fill_fit(fit, score, category, direction)
-        fill_no_fit(no_fit, score, category, direction)
-        tryAgain = false
-      }
-    } catch {
-      console.log('data did not load quick enough')
-    }
+    fill_fit(fit, score, category, direction)
+    fill_no_fit(no_fit, score, category, direction)
   }
-
   return [fit, no_fit, city_info, data]
 }
 
