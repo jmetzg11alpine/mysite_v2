@@ -107,7 +107,7 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
             </div>
           ) : (
             <div>
-              <h2>Contact the Mr. Jesse</h2>
+              <h2>Contact Mr. Jesse</h2>
               <p>He will give you a password</p>
             </div>
           )}

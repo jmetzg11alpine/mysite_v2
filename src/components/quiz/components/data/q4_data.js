@@ -21,10 +21,10 @@ export const questions = [
   {
     questionsText: 'Whats is his first foreign language?',
     answerOptions: [
-      { answerText: 'Spanish', isCorrect: false },
+      { answerText: 'Spanish', isCorrect: true },
       { answerText: 'French', isCorrect: false },
       { answerText: 'Indonesian', isCorrect: false },
-      { answerText: 'Russian', isCorrect: true },
+      { answerText: 'Russian', isCorrect: false },
     ],
   },
   {
@@ -57,10 +57,10 @@ export const questions = [
   {
     questionsText: 'His wife works in which industry?',
     answerOptions: [
-      { answerText: 'Tobacco', isCorrect: false },
+      { answerText: 'Tobacco', isCorrect: true },
       { answerText: 'Pharmaceutical', isCorrect: false },
       { answerText: 'Media', isCorrect: false },
-      { answerText: 'Fashion', isCorrect: true },
+      { answerText: 'Fashion', isCorrect: false },
     ],
   },
   {
@@ -84,10 +84,10 @@ export const questions = [
   {
     questionsText: 'Jesse built this site with?',
     answerOptions: [
-      { answerText: 'React and FastAPI', isCorrect: false },
+      { answerText: 'React and FastAPI', isCorrect: true },
       { answerText: 'React and Flask', isCorrect: false },
       { answerText: 'Veu and Next.js', isCorrect: false },
-      { answerText: 'Angular and Express.js', isCorrect: true },
+      { answerText: 'Angular and Express.js', isCorrect: false },
     ],
   },
 ]
