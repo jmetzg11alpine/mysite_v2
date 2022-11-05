@@ -103,7 +103,7 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
           ) : endResultNumber === 2 ? (
             <div>
               <h2>Sorry, we are keeping the original data</h2>
-              <p>We have to keep the data interesting</p>
+              <p>We have to keep the graphs interesting</p>
             </div>
           ) : (
             <div>

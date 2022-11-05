@@ -40,8 +40,8 @@ const questions = [
     answerOptions: [
       { answerText: '3 days', isCorrect: false },
       { answerText: '5 days', isCorrect: false },
-      { answerText: '7 days', isCorrect: false },
-      { answerText: '9 days', isCorrect: true },
+      { answerText: '7 days', isCorrect: true },
+      { answerText: '9 days', isCorrect: false },
     ],
   },
   {
@@ -49,17 +49,17 @@ const questions = [
     answerOptions: [
       { answerText: 'Sao Paulo', isCorrect: false },
       { answerText: 'Rio de Janeiro', isCorrect: false },
-      { answerText: 'Brasilia', isCorrect: false },
-      { answerText: 'Salvador', isCorrect: true },
+      { answerText: 'Brasilia', isCorrect: true },
+      { answerText: 'Salvador', isCorrect: false },
     ],
   },
   {
     questionsText: 'Where is the largest airport in the USA?',
     answerOptions: [
       { answerText: 'DC', isCorrect: false },
-      { answerText: 'Dallas', isCorrect: true },
-      { answerText: 'Denver', isCorrect: false },
-      { answerText: 'Huston', isCorrect: true },
+      { answerText: 'Dallas', isCorrect: false },
+      { answerText: 'Denver', isCorrect: true },
+      { answerText: 'Huston', isCorrect: false },
     ],
   },
   {
@@ -81,12 +81,12 @@ const questions = [
     ],
   },
   {
-    questionsText: 'Which country has the most Spanish speakers?',
+    questionsText: 'Where is the Bosporus Strait?',
     answerOptions: [
-      { answerText: 'USA', isCorrect: false },
-      { answerText: 'Spain', isCorrect: false },
-      { answerText: 'Argentina', isCorrect: false },
-      { answerText: 'Mexico', isCorrect: true },
+      { answerText: 'Spain - Morocco', isCorrect: false },
+      { answerText: 'Iran - UAE', isCorrect: false },
+      { answerText: 'Malaysia - Indonesia', isCorrect: false },
+      { answerText: 'Turkey', isCorrect: true },
     ],
   },
 ]
