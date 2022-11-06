@@ -30,7 +30,6 @@ async function verifyPassword(userName, password, userURL) {
 
 async function postScore(score, userName, url) {
   const result = await axios.post(url, { name: userName, score: score })
-  console.log(result.data)
   return result.data
 }
 
