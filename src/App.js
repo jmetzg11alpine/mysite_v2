@@ -11,9 +11,16 @@ import Q2 from './components/quiz/components/Q2'
 import Q3 from './components/quiz/components/Q3'
 import Q4 from './components/quiz/components/Q4'
 import Projects from './components/projects/Projects'
+import FDI from './components/projects/components/FDI'
+import Transport from './components/projects/components/Transport'
+import Migration from './components/projects/components/Migration'
+import Stocks from './components/projects/components/Stocks'
+import Apartments from './components/projects/components/Apartments'
 import About from './components/about/About'
 import './App.css'
 
+// Put an outlet when you want a second header (livability and quiz)
+// make an index when you just want a place holder with nested routes (projects)
 function App() {
   return (
     <div>
@@ -32,7 +39,14 @@ function App() {
             <Route path='q3' element={<Q3 />} />
             <Route path='q4' element={<Q4 />} />
           </Route>
-          <Route path='/projects' element={<Projects />}></Route>
+          <Route path='/projects'>
+            <Route index element={<Projects />} />
+            <Route path='fdi' element={<FDI />} />
+            <Route path='transport' element={<Transport />} />
+            <Route path='migration' element={<Migration />} />
+            <Route path='stocks' element={<Stocks />} />
+            <Route path='apartments' element={<Apartments />} />
+          </Route>
           <Route path='/about' element={<About />} />
         </Routes>
       </Router>

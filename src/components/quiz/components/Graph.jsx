@@ -70,13 +70,13 @@ const Graph = ({ graph_name, data }) => {
       .attr('width', x.bandwidth())
 
     // Axis Labels
-    svg
-      .append('text')
-      .attr('text-anchor', 'end')
-      .attr('x', width / 2)
-      .attr('y', height + height * 0.2)
-      .text('Users')
-      .style('font-size', width * 0.04)
+    // svg
+    //   .append('text')
+    //   .attr('text-anchor', 'end')
+    //   .attr('x', width / 2)
+    //   .attr('y', height + width * 0.1)
+    //   .text('Users')
+    //   .style('font-size', width * 0.04)
 
     svg
       .append('text')
