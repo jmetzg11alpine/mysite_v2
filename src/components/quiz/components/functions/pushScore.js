@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const userURL = 'https://evtssx.deta.dev/users'
+const userURL = 'https://emj00l.deta.dev/users'
 
 // 1 = score update, 2 = score already exists, 3 = user not authorized
 async function pushScore(score, userName, password, url) {

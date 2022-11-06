@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react'
 import Graph from './Graph'
 import getData from './functions/getData.js'
 import './styles/quiz.css'
-const url = 'https://evtssx.deta.dev/all_scores_average'
+
+const url = 'https://emj00l.deta.dev/all_scores_average'
 
 const Quiz = () => {
   const [scores, setScores] = useState([])

@@ -5,7 +5,8 @@ import getData from './functions/getData.js'
 import questions from './data/q1_data'
 import './styles/quiz.css'
 
-const url = 'https://evtssx.deta.dev/q1'
+const url = 'https://emj00l.deta.dev/q1'
+
 const Q1 = () => {
   const [scores, setScores] = useState([])
   const [quizSubmitted, setQuizSubmitted] = useState(0)
