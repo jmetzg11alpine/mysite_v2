@@ -69,7 +69,7 @@ export const questions = [
       { answerText: 'soup and vegetables', isCorrect: false },
       { answerText: 'burritos', isCorrect: false },
       { answerText: 'cheeseburgers', isCorrect: false },
-      { answerText: 'rice and beans', isCorrect: true },
+      { answerText: 'rice, beans and musli', isCorrect: true },
     ],
   },
   {

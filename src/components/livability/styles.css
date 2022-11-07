@@ -74,6 +74,10 @@
   display: flex;
 }
 
+.livability-glossary-table td {
+  border: none;
+}
+
 .cell-text {
   font-size: 1.6vh;
   width: 20vw;

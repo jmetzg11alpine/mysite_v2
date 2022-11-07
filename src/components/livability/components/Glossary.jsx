@@ -4,7 +4,7 @@ const Glossary = () => {
       <div className='glossary-title-container'>
         <h3 className='Glossary'>Glossary</h3>
       </div>
-      <table>
+      <table className='livability-glossary-table'>
         <tbody>
           <tr className='row'>
             <td>

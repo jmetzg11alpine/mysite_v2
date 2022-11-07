@@ -1,0 +1,44 @@
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3vw;
+}
+p {
+  font-size: 1.4vw;
+}
+.migration-container {
+  padding: 1vh;
+}
+
+.migration-img-two {
+  height: 20vw;
+}
+
+.migration-img-three {
+  height: 25vw;
+}
+
+.migration-table table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 11vw;
+  font-size: 0.95vw;
+}
+
+.migration-table {
+  border-collapse: collapse;
+}
+
+.migration-table td {
+  padding: 0.2vw;
+}
+
+.migration-img-scatter {
+  height: 20vw;
+}
+
+.migration-link-github {
+  font-size: 1.1vw;
+}
