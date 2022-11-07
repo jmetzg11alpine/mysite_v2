@@ -1,0 +1,159 @@
+* {
+  margin: 1vh;
+  padding: 20vh;
+}
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3vw;
+}
+p {
+  font-size: 1.4vw;
+}
+.fdi-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+}
+
+.fdi-paragraph {
+  margin-bottom: 1vw;
+}
+/*  */
+.fdi-data {
+  white-space: pre-line;
+  height: 16vw;
+}
+
+/*  */
+.fdi-img-insights-one-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1vh;
+}
+
+.fdi-img-insights-one-container .big {
+  height: 30vw;
+}
+
+.fdi-img-insights-one-container .small {
+  height: 25vw;
+}
+
+/*  */
+.fdi-insights-two {
+  margin-top: 1vw;
+}
+.fdi-img-insights-two-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fdi-img-insights-two-container .big {
+  height: 30vw;
+}
+
+.fdi-img-insights-two-container .small {
+  height: 25vw;
+}
+
+/*  */
+
+.fdi-insights-three {
+  margin-top: 1vw;
+}
+
+.fdi-img-insights-three-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fdi-img-insights-three-container img {
+  height: 20vw;
+}
+
+/*  */
+
+.fdi-south-america {
+  margin-top: 1vw;
+}
+
+.fid-south-america-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fdi-south-america-table table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 11vw;
+  font-size: 1.1vw;
+}
+
+.fdi-south-america-table {
+  border-collapse: collapse;
+}
+
+.fdi-south-america-table td {
+  padding: 0.2vw;
+}
+
+.fdi-south-america-img {
+  height: 38vw;
+  margin-left: 2vw;
+}
+
+/*  */
+.south-america-two {
+  margin-top: 1vw;
+}
+
+.south-america-two img {
+  height: 36vw;
+}
+
+/*  */
+.south-america-three {
+  margin-top: 1vw;
+}
+.south-america-three img {
+  height: 36vw;
+}
+
+/*  */
+.south-america-four {
+  margin-top: 1vw;
+}
+
+.south-america-four-table table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 11vw;
+  font-size: 1.1vw;
+}
+
+.south-america-four-table {
+  border-collapse: collapse;
+}
+
+.south-america-four-table td {
+  padding: 0.2vw;
+}
+
+/*  */
+.fdi-conclusion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vw;
+}
+.fdi-conclusion-conclusion {
+  height: 6vw;
+}
+.fdi-conclusion-github-link {
+  font-size: 1.1vw;
+}

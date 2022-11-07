@@ -40,10 +40,10 @@ const Projects = () => {
     <>
       <div className='project-container'>
         {projectPaths.map((data, i) => (
-          <div className='card'>
+          <div key={i} className='card'>
             <img className='project-image' src={images[i]} alt={data} />
             <h3>{projectTitles[i]}</h3>
-            <p>{descriptionText[i]}</p>
+            <p className='card-description'>{descriptionText[i]}</p>
             <hr className='hr' />
             <div className='link'>
               <Link to={data} style={linkStyle}>
