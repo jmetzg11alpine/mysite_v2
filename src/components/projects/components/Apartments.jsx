@@ -1,6 +1,7 @@
 import ap_1 from '../img/r_ap_1.png'
 import ap_2 from '../img/r_ap_2.png'
 import ap_3 from '../img/r_ap_3.png'
+import '../styles/apartments.css'
 const Apartments = () => {
   return (
     <div className='apartments-container'>
@@ -18,7 +19,7 @@ const Apartments = () => {
           rel='noopener noreferrer'
         >
           Realto.ru
-        </a>
+        </a>{' '}
         has recent listings for apartments for sell in Moscow. Information
         includes price, nearest metro station, number of rooms, size and which
         floor. I will web scrape the 1500 most recent postings.
@@ -30,14 +31,14 @@ const Apartments = () => {
         million), have more than 6 rooms, more than 600 square meters, or are
         located on the 60th floor or a building.
       </p>
-      <img src={ap_1} alt='ap_1' />
+      <img className='apartments-img' src={ap_1} alt='ap_1' />
       <p>
         After removing these outliers my data set went from 1500 samples to 1484
         samples, but the data resembles a normal distribution. Comparing my
         linear regression with the new data my R2 score improved from 0.7655 to
         0.875.
       </p>
-      <img src={ap_2} alt='ap_2' />
+      <img className='apartments-img' src={ap_2} alt='ap_2' />
       <h2>Step 3 - Plotting the results</h2>
       <p>
         From Moscow's very convenient{' '}
@@ -57,8 +58,8 @@ const Apartments = () => {
         Clearly we can see that most expensive apartments are in the center and
         the cheaper apartments are further out, just as one would suspect.
       </p>
-      <img src={ap_3} alt='ap_3' />
-      <p>
+      <img className='apartments-img' src={ap_3} alt='ap_3' />
+      <p className='apartments-github-link'>
         To see all the code for this project please visit my{' '}
         <a
           href='https://github.com/jmetzg11/Personal-Projects/blob/main/metros_apartments_moscow.ipynb'

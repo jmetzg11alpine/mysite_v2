@@ -2,7 +2,6 @@ import '../styles/stocks.css'
 import stocks_1 from '../img/stocks_1.png'
 import stocks_2 from '../img/stocks_2.png'
 import stocks_3 from '../img/stocks_3.png'
-import stocks_4 from '../img/stocks_4.png'
 
 const Stocks = () => {
   return (

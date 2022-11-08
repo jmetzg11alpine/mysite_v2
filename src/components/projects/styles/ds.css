@@ -1,0 +1,24 @@
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3vw;
+}
+p {
+  font-size: 1.4vw;
+}
+
+.ds-container {
+  margin: 1vw;
+}
+
+.ds-iframe {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.ds-iframe iframe {
+  width: 80vh;
+  height: 60vw;
+}
