@@ -29,7 +29,7 @@ const DS = () => {
         .
       </p>
       <div className='ds-iframe'>
-        <iframe src={guide} />
+        <iframe src={guide} title='guide' />
       </div>
     </div>
   )
