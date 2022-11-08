@@ -13,3 +13,57 @@ p {
   padding: 1vh;
   white-space: pre-line;
 }
+
+.stocks-ul {
+  list-style-type: none;
+  margin-left: 10%;
+  margin-bottom: 3vw;
+  font-size: 1.3vw;
+}
+.stocks-step-one-formula {
+  white-space: pre-line;
+}
+
+.stocks-table {
+  width: 30vh;
+  height: 17vw;
+  border-collapse: collapse;
+}
+.stocks-table th {
+  text-align: left;
+  font-size: 1.2vw;
+}
+
+.stocks-table-type-two {
+  width: 45vh;
+  height: 17vw;
+  border-collapse: collapse;
+}
+
+.stocks-table-type-two th {
+  text-align: left;
+  font-size: 1.2vw;
+}
+
+.stocks-table-type-three {
+  width: 55vh;
+  height: 17vw;
+  border-collapse: collapse;
+}
+
+.stocks-table-type-three th {
+  text-align: left;
+  font-size: 1.2vw;
+}
+
+.stocks-github-link {
+  font-size: 1.1vw;
+}
+
+.stocks-stage-two-img {
+  height: 30vh;
+}
+
+.stocks-stage-three-img {
+  height: 18vh;
+}

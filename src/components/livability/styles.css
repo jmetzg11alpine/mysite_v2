@@ -71,18 +71,27 @@
 }
 
 .row {
-  display: flex;
+  /* display: flex; */
 }
 
 .livability-glossary-table td {
   border: none;
+  width: 26vh;
 }
 
-.cell-text {
+.glossary-cell {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1.4vw;
+  margin: 0.1vw 0;
+}
+.glossary-cell img {
+  margin-right: 2vh;
+}
+
+.glossary-cell p {
   font-size: 1.6vh;
-  width: 20vw;
-  margin-left: 2vw;
-  margin-bottom: 2vh;
 }
 
 .data-desclaimer {

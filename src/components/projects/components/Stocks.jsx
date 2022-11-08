@@ -20,7 +20,7 @@ const Stocks = () => {
         The following strategey can be implemented with Python and these
         following packages:
       </p>
-      <ul>
+      <ul className='stocks-ul'>
         <li>pandas</li>
         <li>datetime</li>
         <li>numpy</li>
@@ -53,22 +53,22 @@ const Stocks = () => {
           The first step is to import closing prices from yesterday and the
           previous week.
         </p>
-        <p>
-          <b>LW</b> = the closing price from the previous week
-        </p>
-        <p>
-          <b>Y</b> = the closing price from yesterday
-        </p>
-        <p>
-          Percent Change = ((<b>Y</b>-<b>LW</b>)/<b>LW</b>)*100
-        </p>
+        <div className='stocks-step-one-formula'>
+          <p>
+            <b>LW</b> = the closing price from the previous week{'\n'}
+            <b>Y</b> = the closing price from yesterday{'\n'} Percent Change =
+            ((
+            <b>Y</b>-<b>LW</b>)/<b>LW</b>)*100
+          </p>
+        </div>
+
         <p>
           Keep any ticker that has a percent change -2% or lower. If it's a
           typical week and you're sampling the New York Stock Exchange then your
           list of potential stocks should shrink from a few thousand to a few
           hundred.
         </p>
-        <table>
+        <table className='stocks-table'>
           <tbody>
             <tr>
               <th>Ticker</th>
@@ -128,19 +128,19 @@ const Stocks = () => {
           If your previous dataframe was called 'stocks' then you can do
           something like this to find the RSI from Yahoo.
         </p>
-        <img src={stocks_1} alt='stocks_1' />
+        <img className='stocks-stage-two-img' src={stocks_1} alt='stocks_1' />
         <p>
           Every time I do this I get lots of errors from Yahoo. Sometimes
           EODData gives tickers that Yahoo doesn't have and sometimes Yahoo is
           missing some dates. In any case there will still probably be more than
           100 stocks that will be left on the list of potential stocks.
         </p>
-        <img src={stocks_2} alt='stocks_2' />
+        <img className='stocks-stage-two-img' src={stocks_2} alt='stocks_2' />
         <p>
           Now there should be a RSI column in our data set of potential stocks
           to buy.
         </p>
-        <table>
+        <table className='stocks-table'>
           <tbody>
             <tr>
               <th>Ticker</th>
@@ -199,12 +199,12 @@ const Stocks = () => {
           based off of recent news reports. Through web automation we can get
           the sentiment score and add it to our data set.
         </p>
-        <img src={stocks_3} alt='stocks_3' />
+        <img className='stocks-stage-three-img' src={stocks_3} alt='stocks_3' />
         <p>
           Now there should be a sentiment column in our data set of potential
           stocks to buy.
         </p>
-        <table>
+        <table className='stocks-table-type-two'>
           <tbody>
             <tr>
               <th>Ticker</th>
@@ -273,7 +273,7 @@ const Stocks = () => {
           worth investigating further. This strategy is more of a supplement in
           addition to other techniques you use to choose stocks.
         </p>
-        <table>
+        <table className='stocks-table-type-three'>
           <tbody>
             <tr>
               <th>Ticker</th>
@@ -350,7 +350,7 @@ const Stocks = () => {
           wasted many hours watching the movments of individual stocks. I didn't
           enjoy this strategy and I perfer passive investing through ETFs.
         </p>
-        <p>
+        <p className='stocks-github-link'>
           To see all the code for this project please visit my{' '}
           <a
             href='https://github.com/jmetzg11/Personal-Projects/blob/main/stocks.ipynb'

@@ -46,7 +46,12 @@ const Projects = () => {
             <p className='card-description'>{descriptionText[i]}</p>
             <hr className='hr' />
             <div className='link'>
-              <Link to={data} style={linkStyle}>
+              <Link
+                to={data}
+                style={linkStyle}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 View Here
               </Link>
             </div>

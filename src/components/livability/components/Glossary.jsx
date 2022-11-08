@@ -8,69 +8,100 @@ const Glossary = () => {
         <tbody>
           <tr className='row'>
             <td>
-              <img className='image' src={require('../data/air.png')} alt='' />
+              <div className='glossary-cell'>
+                {' '}
+                <img
+                  className='image'
+                  src={require('../data/air.png')}
+                  alt=''
+                />
+                <p>air pollution level</p>
+              </div>
             </td>
-            <td className='cell-text'>air pollution level</td>
             <td>
-              <img
-                className='image'
-                src={require('../data/crime.png')}
-                alt=''
-              />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/crime.png')}
+                  alt=''
+                />
+                <p>crime rates</p>
+              </div>
             </td>
-            <td className='cell-text'>crime rates</td>
             <td>
-              <img
-                className='image'
-                src={require('../data/income.png')}
-                alt=''
-              />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/income.png')}
+                  alt=''
+                />
+                <p>income levels</p>
+              </div>
             </td>
-            <td className='cell-text'>income levels</td>
           </tr>
           <tr className='row'>
             <td>
-              <img
-                className='image'
-                src={require('../data/parking.png')}
-                alt=''
-              />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/parking.png')}
+                  alt=''
+                />
+                <p>time to find parking</p>
+              </div>
             </td>
-            <td className='cell-text'>time to find parking</td>
             <td>
-              <img
-                className='image'
-                src={require('../data/population.png')}
-                alt=''
-              />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/population.png')}
+                  alt=''
+                />
+                <p>city population</p>
+              </div>
             </td>
-            <td className='cell-text'>city population</td>
             <td>
-              <img className='image' src={require('../data/size.png')} alt='' />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/size.png')}
+                  alt=''
+                />
+                <p>city land size</p>
+              </div>
             </td>
-            <td className='cell-text'>city land size</td>
           </tr>
           <tr className='row'>
             <td>
-              <img
-                className='image'
-                src={require('../data/stations.png')}
-                alt=''
-              />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/stations.png')}
+                  alt=''
+                />{' '}
+                <p>electric car station count</p>
+              </div>
             </td>
-            <td className='cell-text'>electric car station count</td>
             <td>
-              <img
-                className='image'
-                src={require('../data/temperature.png')}
-                alt=''
-              />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/temperature.png')}
+                  alt=''
+                />{' '}
+                <p>average temperature</p>
+              </div>
             </td>
-            <td className='cell-text'>average temperature</td>
             <td>
-              <img className='image' src={require('../data/ufo.png')} alt='' />
+              <div className='glossary-cell'>
+                <img
+                  className='image'
+                  src={require('../data/ufo.png')}
+                  alt=''
+                />{' '}
+                <p>ufo count</p>
+              </div>
             </td>
-            <td className='cell-text'>ufo count</td>
           </tr>
         </tbody>
       </table>
