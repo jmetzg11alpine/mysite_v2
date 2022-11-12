@@ -21,6 +21,10 @@ const Header = () => {
         Quiz
       </Link>
       |
+      <Link to='/world' style={linkStyle}>
+        World
+      </Link>
+      |
       <Link to='/projects' style={linkStyle}>
         Projects
       </Link>

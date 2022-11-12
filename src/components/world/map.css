@@ -1,0 +1,21 @@
+.map-container {
+  margin: 1vw;
+}
+
+.map-title {
+  display: flex;
+  align-items: center;
+}
+
+.map-title p {
+  margin-left: 8px;
+}
+
+.country {
+  stroke: #999;
+}
+
+.world-map-container {
+  display: flex;
+  flex-direction: row;
+}
