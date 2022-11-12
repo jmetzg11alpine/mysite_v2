@@ -62,9 +62,9 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
       ) : endQuiz ? (
         <div className='end-quiz'>
           <div className='quiz-extra-text'>
-            <p>
+            <h4>
               You got {score} correct. Would you like to submit your answers?
-            </p>
+            </h4>
             <form>
               <label className='label-one'>
                 Name:
@@ -98,7 +98,7 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
           {endResultNumber === 1 ? (
             <div>
               <h2>Thanks for playing</h2>
-              <p>your score was recorded</p>
+              <h4>your score was recorded</h4>
             </div>
           ) : endResultNumber === 2 ? (
             <div>

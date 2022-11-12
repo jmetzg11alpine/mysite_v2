@@ -10,12 +10,12 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'second question',
+    questionsText: 'Water boils in Fahrenheit at which temperature',
     answerOptions: [
-      { answerText: 'a', isCorrect: false },
-      { answerText: 'b', isCorrect: true },
-      { answerText: 'c', isCorrect: false },
-      { answerText: 'd', isCorrect: false },
+      { answerText: '198', isCorrect: false },
+      { answerText: '212', isCorrect: true },
+      { answerText: '168', isCorrect: false },
+      { answerText: '232', isCorrect: false },
     ],
   },
   {

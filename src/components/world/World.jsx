@@ -25,12 +25,20 @@ function World() {
   return (
     <div>
       <div className='map-container'>
-        {' '}
-        <div className='map-title'>
-          <h1>Weekly Percent Change to financial markets</h1>
-          {'  '}
-          <p>(with hover effect)</p>
-        </div>
+        {stockData.length === 0 ? (
+          <div className='map-title'>
+            <h1>Getting Data...</h1>
+            {'  '}
+            <p>just a couple of seconds</p>
+          </div>
+        ) : (
+          <div className='map-title'>
+            <h1>Weekly Percent Change to financial markets</h1>
+            {'  '}
+            <p>(with hover effect)</p>
+          </div>
+        )}
+
         <Map stockData={stockData} worldData={worldData} />
         <p>
           All the data is scrapped from{' '}
