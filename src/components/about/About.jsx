@@ -1,10 +1,13 @@
+import Contact from './components/Contact'
+import WorkHistory from './components/WorkHistory'
+import './styles/about.css'
+
 const About = () => {
   return (
-    <div>
+    <div className='about-container'>
       <h1>About seciton</h1>
-      <p>you can add your world map here</p>
-      <p>add a work history</p>
-      <p>add a contact page</p>
+      <WorkHistory />
+      <Contact />
     </div>
   )
 }

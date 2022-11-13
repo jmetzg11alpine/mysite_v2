@@ -1,0 +1,81 @@
+/* #009FB7 pacific blue
+#3D348B cosmic cobalt
+#FB4D46 tart orange
+#FFB20F honey yellow
+#AAABBC cadet blue crayola */
+
+.about-form-container {
+  border-radius: 1.8vw;
+  background-color: #3d348b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10vw;
+  padding: 0.7vw 0;
+}
+
+.about-form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-form-title {
+  margin: 0.3vw 0;
+  color: #ffb20f;
+}
+
+.about-form-inputContent {
+  width: 70vw; /* Full width */
+  padding: 0.5vw; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin: 0.5vw 0;
+  font-size: 1.2vw;
+}
+
+.about-form-button {
+  margin-top: 1vw;
+  width: 30vw;
+  height: 3vw;
+  border-radius: 12px;
+  color: white;
+  background: #ffb20f;
+  font-size: 2vw;
+}
+
+.about-form-button:hover {
+  font-size: 2.2vw;
+  background: #fcaf09;
+}
+
+.about-form-popup-in {
+  position: absolute;
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+  left: 35vw;
+  bottom: 65vh;
+  color: white;
+  background: #fcaf09;
+  padding: 1.3vw;
+  border-radius: 18px;
+}
+
+.about-form-popup-out {
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+  left: 35vw;
+  bottom: 65vh;
+  color: white;
+  background: #fcaf09;
+  padding: 1.3vw;
+  border-radius: 18px;
+}
