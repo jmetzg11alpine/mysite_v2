@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import pushScore from './functions/pushScore'
 import getAnswers from './functions/getAnswers'
+import popCorrect from './functions/popCorrect'
+import popWrong from './functions/popWrong'
+import './styles/popup.css'
 
 const Quiz = ({ questions, url, setQuizSubmitted }) => {
   const [intro, setIntro] = useState(true)
@@ -11,6 +14,7 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
   const [password, setPassword] = useState()
   const [endResultsSection, setEndResultsSection] = useState(false)
   const [endResultNumber, setEndResultNumber] = useState(3)
+  const [popText, setPopText] = useState('')
 
   const handleStart = () => {
     setIntro(false)
@@ -21,6 +25,9 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
   const handleClick = (isCorrect) => {
     if (isCorrect === true) {
       setScore(score + 1)
+      popCorrect(setPopText)
+    } else {
+      popWrong(setPopText)
     }
     if (currentQuestion < questions.length - 1) {
       const nextQuestion = currentQuestion + 1
@@ -51,6 +58,7 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
     const answers = getAnswers(questions)
     alert(answers)
   }
+
   return (
     <div className='quiz-container'>
       {intro ? (
@@ -135,6 +143,9 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
           </div>
         </div>
       )}
+      <div id='quiz-pop-up'>
+        <h1>{popText}</h1>
+      </div>
     </div>
   )
 }

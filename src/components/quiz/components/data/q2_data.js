@@ -1,7 +1,7 @@
 export const questions = [
   {
     questionsText:
-      'What numbers represent the empirical rule for a normal distribution',
+      'What numbers represent the empirical rule for a normal distribution?',
     answerOptions: [
       { answerText: '60-80-100', isCorrect: false },
       { answerText: '50-90-95', isCorrect: false },
@@ -10,7 +10,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'Water boils in Fahrenheit at which temperature',
+    questionsText: 'Water boils in Fahrenheit at which temperature?',
     answerOptions: [
       { answerText: '198', isCorrect: false },
       { answerText: '212', isCorrect: true },
@@ -19,21 +19,75 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'third question',
+    questionsText: 'Which planet completes a rotation in 10 hours?',
     answerOptions: [
-      { answerText: 'a', isCorrect: false },
-      { answerText: 'b', isCorrect: false },
-      { answerText: 'c', isCorrect: true },
-      { answerText: 'd', isCorrect: false },
+      { answerText: 'Mercury', isCorrect: false },
+      { answerText: 'Venus', isCorrect: false },
+      { answerText: 'Jupiter', isCorrect: true },
+      { answerText: 'Neptune', isCorrect: false },
     ],
   },
   {
-    questionsText: 'fourth question',
+    questionsText: 'A murder is a group of?',
     answerOptions: [
-      { answerText: 'a', isCorrect: false },
-      { answerText: 'b', isCorrect: false },
-      { answerText: 'c', isCorrect: false },
-      { answerText: 'd', isCorrect: true },
+      { answerText: 'crows', isCorrect: false },
+      { answerText: 'jackals', isCorrect: false },
+      { answerText: 'hawks', isCorrect: false },
+      { answerText: 'coyotes', isCorrect: true },
+    ],
+  },
+  {
+    questionsText: 'How far can a wolf smell?',
+    answerOptions: [
+      { answerText: '1000 feet', isCorrect: false },
+      { answerText: '2500 feet', isCorrect: false },
+      { answerText: '1 mile', isCorrect: true },
+      { answerText: '3 miles', isCorrect: false },
+    ],
+  },
+  {
+    questionsText: 'A new born kangaroo is the size of a?',
+    answerOptions: [
+      { answerText: 'mouse', isCorrect: false },
+      { answerText: 'bean', isCorrect: true },
+      { answerText: 'puppy', isCorrect: false },
+      { answerText: 'football', isCorrect: false },
+    ],
+  },
+  {
+    questionsText: 'Where in the body in blod produced?',
+    answerOptions: [
+      { answerText: 'bones', isCorrect: true },
+      { answerText: 'heart', isCorrect: false },
+      { answerText: 'liver', isCorrect: false },
+      { answerText: 'spleen', isCorrect: false },
+    ],
+  },
+  {
+    questionsText: 'Main ingredient in tequila',
+    answerOptions: [
+      { answerText: 'sugar', isCorrect: false },
+      { answerText: 'maiz', isCorrect: false },
+      { answerText: 'agava', isCorrect: true },
+      { answerText: 'beans', isCorrect: false },
+    ],
+  },
+  {
+    questionsText: 'First country to send a woman to space?',
+    answerOptions: [
+      { answerText: 'USSR', isCorrect: true },
+      { answerText: 'USA', isCorrect: false },
+      { answerText: 'China', isCorrect: false },
+      { answerText: 'EU', isCorrect: false },
+    ],
+  },
+  {
+    questionsText: 'First living creature to enter space',
+    answerOptions: [
+      { answerText: 'cat', isCorrect: false },
+      { answerText: 'flies', isCorrect: true },
+      { answerText: 'dog', isCorrect: false },
+      { answerText: 'monkey', isCorrect: false },
     ],
   },
 ]

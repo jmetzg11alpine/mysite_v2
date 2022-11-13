@@ -1,0 +1,52 @@
+.quiz-correct-popup-in {
+  position: absolute;
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+  left: 40vw;
+  bottom: 85vh;
+  color: #ccf381;
+  background: #4831d4;
+  padding: 1vw;
+}
+
+.quiz-correct-popup-out {
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+  left: 40vw;
+  bottom: 85vh;
+  color: #ccf381;
+  background: #4831d4;
+  padding: 1vw;
+}
+
+/* background=#d2302c, color #f7f7f9 */
+.quiz-incorrect-popup-in {
+  position: absolute;
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+  left: 40vw;
+  bottom: 85vh;
+  color: #f7f7f9;
+  background: #d2302c;
+  padding: 1vw;
+}
+
+.quiz-incorrect-popup-out {
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+  left: 40vw;
+  bottom: 85vh;
+  color: #f7f7f9;
+  background: #d2302c;
+  padding: 1vw;
+}

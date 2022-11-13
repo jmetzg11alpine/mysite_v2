@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react'
+import { useRef, useEffect } from 'react'
 import * as d3 from 'd3'
 import './map.css'
 
@@ -59,7 +59,7 @@ const Map = ({ stockData, worldData }) => {
     let country_name = getCountryName(d)
     let percent_change = findPercentChangeV2(country_name, stockData)
 
-    d3.selectAll('.country').transition().duration(200).style('opacity', 0.4)
+    d3.selectAll('.country').transition().duration(200).style('opacity', 0.8)
     d3.select(this.parentNode.appendChild(this))
       .transition()
       .duration(200)
