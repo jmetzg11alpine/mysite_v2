@@ -34,7 +34,7 @@
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin: 0.5vw 0;
-  font-size: 1.2vw;
+  font-size: 1.2vh;
 }
 
 .about-form-button {

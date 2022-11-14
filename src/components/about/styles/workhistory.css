@@ -5,12 +5,12 @@
 #AAABBC cadet blue crayola */
 
 .about-workhistory-container {
-  margin: 2vw 0;
+  margin: 0.7vw 0;
 }
 
 .about-workhistory-container h1 {
-  font-size: 3.5vw;
-  margin: 1vw 0;
+  font-size: 1.4vw;
+  margin: 0.2vw 0;
 }
 
 .about-workhistory-table {
@@ -35,18 +35,19 @@
 }
 
 .about-workhistory-table th {
-  font-size: 1.4vw;
+  font-size: 1.4vh;
 }
 
 .about-workhistory-table td {
-  font-size: 0.95vw;
+  font-size: 1.2vh;
   white-space: nowrap;
 }
 
 .about-workhistory-table td,
 .about-workhistory-table th {
   border: 1px solid #ddd;
-  padding: 0.5vw;
+  padding-top: 0.2vw;
+  padding-bottom: 0.08vw;
 }
 
 .about-workhistory-table tr:nth-child(even) {
