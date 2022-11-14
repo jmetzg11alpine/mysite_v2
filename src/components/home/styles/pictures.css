@@ -1,0 +1,71 @@
+.picture-tools-title {
+  font-size: 1.2;
+  font-weight: bold;
+}
+
+.home-photo-container {
+  position: relative;
+  background: red;
+  width: 90vw;
+  margin: 4vw;
+  height: 60vwh;
+}
+
+.home-img-con {
+  position: absolute;
+  top: 18vh;
+  left: 14vw;
+}
+
+.home-img {
+  width: 6vw;
+  height: 6vh;
+}
+
+.one {
+  transform: translate(12vw);
+}
+
+.two {
+  transform: rotate(30deg) translate(12vw) rotate(-30deg);
+}
+
+.three {
+  transform: rotate(60deg) translate(12vw) rotate(-60deg);
+}
+
+.four {
+  transform: rotate(90deg) translate(12vw) rotate(-90deg);
+}
+
+.five {
+  transform: rotate(120deg) translate(12vw) rotate(-120deg);
+}
+
+.six {
+  transform: rotate(150deg) translate(12vw) rotate(-150deg);
+}
+
+.seven {
+  transform: rotate(180deg) translate(12vw) rotate(-180deg);
+}
+
+.eight {
+  transform: rotate(210deg) translate(12vw) rotate(-210deg);
+}
+
+.nine {
+  transform: rotate(240deg) translate(12vw) rotate(-240deg);
+}
+
+.ten {
+  transform: rotate(270deg) translate(12vw) rotate(-270deg);
+}
+
+.eleven {
+  transform: rotate(300deg) translate(12vw) rotate(-300deg);
+}
+
+.twelve {
+  transform: rotate(330deg) translate(12vw) rotate(-330deg);
+}

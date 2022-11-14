@@ -1,0 +1,9 @@
+.home-container {
+  position: relative;
+  margin: 2vw;
+  font-size: 3vw;
+}
+
+.home-container p {
+  font-size: 1.4vw;
+}

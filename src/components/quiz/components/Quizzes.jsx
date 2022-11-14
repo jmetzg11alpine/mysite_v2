@@ -17,11 +17,12 @@ const Quiz = () => {
       <div className='info-container'>
         <h1>Quiz summary</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ex.
-          Sapiente reprehenderit maiores blanditiis aut numquam ducimus
-          incidunt, molestias quae. Magni reprehenderit quae quis quasi
-          accusamus animi? Officia tempora aut amet cum, ut dolore dignissimos.
-          Doloremque libero consequuntur magnam nisi?
+          Here are four trivia quizzes. Topics are Geography, STEM, History, and
+          Jesse.
+        </p>
+        <p>
+          Below are the average scores of people who have taken some of the
+          quizzes.
         </p>
       </div>
 

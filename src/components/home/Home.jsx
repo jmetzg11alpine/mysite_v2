@@ -1,25 +1,28 @@
 import React from 'react'
+import './styles/home.css'
+import Pictures from './Pictures'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome</h1>
+    <div className='home-container'>
+      <p>Thanks for visiting my Data Science site.</p>
       <p>
-        Thanks for visiting my portfolio site. This is were I can demonstrate
-        some of my skill as a Data Scientist
+        But what is a Data Scientist? Can they actually program? Aren't they
+        more like old geezers who teach linear regressions on clean data at a a
+        propoganda{' '}
+        <a href='https://sais.jhu.edu/' rel='noreferrer' target='_blank'>
+          institution
+        </a>{' '}
+        of higher education. Aren't they less tech savy than 14 year old
+        youtubers from India? Or is it a dork who can utilize various tools to
+        find and communicate actionable insights hidden in data?
       </p>
-      <br />
       <p>
-        But what is a Data Scientist? Is it an old geezer who teaches linear
-        regression on clean data at a a propoganda institution of higher
-        education while being less tech savy than a 14 year old youtuber from
-        India? Or is it a dork who can utilize various tools to find and
-        communicate actionable insights hidden in data?
+        Here is were I would like to show some of my other tools. There are
+        complex data visualizations, interactions with databases, backend
+        functionality, and typical data science projects all found on this site.
       </p>
-      <h1>
-        Don't worry wife, I'm still editing it and you're the only one who has
-        this url
-      </h1>
+      <Pictures />
     </div>
   )
 }

@@ -111,12 +111,12 @@ const Quiz = ({ questions, url, setQuizSubmitted }) => {
           ) : endResultNumber === 2 ? (
             <div>
               <h2>Sorry, we are keeping the original data</h2>
-              <p>We have to keep the graphs interesting</p>
+              <h4>We have to keep the graphs interesting</h4>
             </div>
           ) : (
             <div>
-              <h2>Contact Mr. Jesse</h2>
-              <p>He will give you a password</p>
+              <h2>You are not registered</h2>
+              <h4>Tell Jesse and he'll give you a password</h4>
             </div>
           )}
           <div className='button'>

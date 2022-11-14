@@ -1,0 +1,65 @@
+/* #009FB7 pacific blue
+#3D348B cosmic cobalt
+#FB4D46 tart orange
+#FFB20F honey yellow
+#AAABBC cadet blue crayola */
+
+.about-workhistory-container {
+  margin: 2vw 0;
+}
+
+.about-workhistory-container h1 {
+  font-size: 3.5vw;
+  margin: 1vw 0;
+}
+
+.about-workhistory-table {
+  border-collapse: collapse;
+  width: 55vw;
+}
+
+.about-workhistory-column-one {
+  width: 25%;
+}
+
+.about-workhistory-column-two {
+  width: 25%;
+}
+
+.about-workhistory-column-three {
+  width: 35%;
+}
+
+.about-workhistory-column-four {
+  width: 15%;
+}
+
+.about-workhistory-table th {
+  font-size: 1.4vw;
+}
+
+.about-workhistory-table td {
+  font-size: 0.95vw;
+  white-space: nowrap;
+}
+
+.about-workhistory-table td,
+.about-workhistory-table th {
+  border: 1px solid #ddd;
+  padding: 0.5vw;
+}
+
+.about-workhistory-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.about-workhistory-table tr:hover {
+  background-color: #ddd;
+}
+
+.about-workhistory-table th {
+  padding: 1vw 0.5vw;
+  text-align: left;
+  background-color: #aaabbc;
+  color: white;
+}
