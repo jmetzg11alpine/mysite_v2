@@ -24,7 +24,7 @@ const allTexts = [
   'eres genial',
   'нечего себе',
   'genius',
-  'dork',
+  'correct',
 ]
 
 export default popCorrect

@@ -1,11 +1,14 @@
-.picture-tools-title {
-  font-size: 1.2;
+/* .home-picture-container {
+} */
+
+.picture-tools-title p {
+  font-size: 1.7vw;
+  left: 30vw;
   font-weight: bold;
 }
 
 .home-photo-container {
   position: relative;
-  background: red;
   width: 90vw;
   margin: 4vw;
   height: 60vwh;
@@ -22,50 +25,259 @@
   height: 6vh;
 }
 
+.zero {
+}
+
+.zero-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 10vh;
+  left: 5vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.zero:hover ~ .zero-tooltip {
+  visibility: visible;
+}
 .one {
   transform: translate(12vw);
+}
+
+.one-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 10vh;
+  left: 15vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.one:hover ~ .one-tooltip {
+  visibility: visible;
 }
 
 .two {
   transform: rotate(30deg) translate(12vw) rotate(-30deg);
 }
 
+.two-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 19vh;
+  left: 19vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.two:hover ~ .two-tooltip {
+  visibility: visible;
+}
+
 .three {
   transform: rotate(60deg) translate(12vw) rotate(-60deg);
+}
+
+.three-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 25vh;
+  left: 12vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.three:hover ~ .three-tooltip {
+  visibility: visible;
 }
 
 .four {
   transform: rotate(90deg) translate(12vw) rotate(-90deg);
 }
 
+.four-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 26vh;
+  left: 8vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.four:hover ~ .four-tooltip {
+  visibility: visible;
+}
+
 .five {
   transform: rotate(120deg) translate(12vw) rotate(-120deg);
+}
+
+.five-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 25vh;
+  left: 2vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.five:hover ~ .five-tooltip {
+  visibility: visible;
 }
 
 .six {
   transform: rotate(150deg) translate(12vw) rotate(-150deg);
 }
 
+.six-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 20vh;
+  left: 0vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.six:hover ~ .six-tooltip {
+  visibility: visible;
+}
+
 .seven {
   transform: rotate(180deg) translate(12vw) rotate(-180deg);
+}
+
+.seven-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: 10vh;
+  left: 0vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.seven:hover ~ .seven-tooltip {
+  visibility: visible;
 }
 
 .eight {
   transform: rotate(210deg) translate(12vw) rotate(-210deg);
 }
 
+.eight-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: -1vh;
+  left: 0vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.eight:hover ~ .eight-tooltip {
+  visibility: visible;
+}
+
 .nine {
   transform: rotate(240deg) translate(12vw) rotate(-240deg);
+}
+
+.nine-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  bottom: 2vh;
+  left: 0vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.nine:hover ~ .nine-tooltip {
+  visibility: visible;
 }
 
 .ten {
   transform: rotate(270deg) translate(12vw) rotate(-270deg);
 }
 
+.ten-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  bottom: 5vh;
+  left: 6vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.ten:hover ~ .ten-tooltip {
+  visibility: visible;
+}
 .eleven {
   transform: rotate(300deg) translate(12vw) rotate(-300deg);
 }
 
+.eleven-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  bottom: 2vh;
+  left: 12vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.eleven:hover ~ .eleven-tooltip {
+  visibility: visible;
+}
+
 .twelve {
   transform: rotate(330deg) translate(12vw) rotate(-330deg);
+}
+
+.twelve-tooltip {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #fb4d46;
+  top: -2vh;
+  left: 16vw;
+  z-index: 1;
+  padding: 0.8vw;
+  font-size: 4vw;
+}
+
+.twelve:hover ~ .twelve-tooltip {
+  visibility: visible;
 }

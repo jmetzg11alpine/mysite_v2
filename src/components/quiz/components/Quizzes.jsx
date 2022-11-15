@@ -15,7 +15,7 @@ const Quiz = () => {
   return (
     <div>
       <div className='info-container'>
-        <h1>Quiz summary</h1>
+        <h1>Quizzes</h1>
         <p>
           Here are four trivia quizzes. Topics are Geography, STEM, History, and
           Jesse.
