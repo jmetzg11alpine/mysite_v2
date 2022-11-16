@@ -66,10 +66,10 @@ export const questions = [
   {
     questionsText: 'In which century did Muhammad unite the Arabian Peninsula?',
     answerOptions: [
-      { answerText: '700s', isCorrect: true },
+      { answerText: '600s', isCorrect: true },
+      { answerText: '700s', isCorrect: false },
       { answerText: '800s', isCorrect: false },
       { answerText: '900s', isCorrect: false },
-      { answerText: '1000s', isCorrect: false },
     ],
   },
   {

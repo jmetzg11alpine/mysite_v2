@@ -20,7 +20,7 @@ const WorkHistory = () => {
         </tr>
         <tr>
           <td>Data Analyst</td>
-          <td>Istanbule, Turkey</td>
+          <td>Istanbul, Turkey</td>
           <td>FindBobi</td>
           <td>2021 - 2022</td>
         </tr>
