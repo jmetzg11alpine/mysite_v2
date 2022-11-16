@@ -4,6 +4,13 @@
 #FFB20F honey yellow
 #AAABBC cadet blue crayola */
 
+.about-form-container h1 {
+  font-size: 2vw;
+}
+
+.about-form-container input {
+  font-size: 1vw;
+}
 .about-form-container {
   border-radius: 1.8vw;
   background-color: #0070c0;

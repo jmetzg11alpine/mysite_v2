@@ -1,3 +1,11 @@
 .home-container {
   margin: 0.8vw;
 }
+
+.home-container h1 {
+  font-size: 2vw;
+}
+
+.home-container p {
+  font-size: 1vw;
+}

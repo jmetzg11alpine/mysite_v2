@@ -17,7 +17,7 @@ const Pictures = () => {
   return (
     <div className='home-picture-container'>
       <div className='picture-tools-title'>
-        <p>My Tools:</p>
+        <h1>My Tools:</h1>
       </div>
       <div className='home-photo-container'>
         <div className='home-img-con zero'>

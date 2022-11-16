@@ -73,7 +73,7 @@ const Migration = () => {
         we can web scrape a safety score for each city. 19 of my cities were not
         listed on the site. Therefore, I google searched each missing city and
         filled in my own safety score based on what I read about each city.
-        Popular sources for this reasearch were regional crime reports,
+        Popular sources for this research were regional crime reports,
         newspapers, and traveling blogs. It's not an ideal method but I thought
         it was better than having missing data.
       </p>

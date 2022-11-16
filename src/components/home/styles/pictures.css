@@ -2,8 +2,16 @@
   margin-top: -15vw;
 }
 
+.home-picture-container h1 {
+  font-size: 2vw;
+}
+
+.home-picture-container p {
+  font-size: 1w;
+}
+
 .picture-tools-title p {
-  font-size: 1.7vw;
+  font-size: 1vw;
   left: 30vw;
   font-weight: bold;
 }
@@ -26,8 +34,8 @@
   height: 6vh;
 }
 
-.zero {
-}
+/* .zero {
+} */
 
 .zero-tooltip {
   position: absolute;

@@ -1,6 +1,10 @@
 .about-container {
   margin: 1vw;
-  font-size: 1vh;
+  font-size: 1vw;
+}
+
+.about-container h1 {
+  font-size: 2vw;
 }
 
 .about-container p {

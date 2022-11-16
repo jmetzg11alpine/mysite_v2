@@ -82,14 +82,14 @@ const FDI = () => {
           >
             report{' '}
           </a>
-          on various industries that recieve FDIs
+          on various industries that receive FDIs
         </p>
       </div>
       <div className='fdi-insigths-one'>
         <h2>Insights Found:</h2>
         <p className='fdi-paragraph'>
           We can see some clear outliers when looking at how much FDI countries
-          recieve. Countries with a stable goverment and economical potential
+          receive. Countries with a stable government and economical potential
           are more attractive for investments.
         </p>
         <div className='fdi-img-insights-one-container'>
@@ -200,7 +200,7 @@ const FDI = () => {
       </div>
       <div className='south-america-four'>
         <p className='fdi-paragraph'>
-          Other factors that can determine the amount of FDIs a country recieves
+          Other factors that can determine the amount of FDIs a country receives
           is its ease of doing business ranking and levels of corruption.
         </p>
         <table className='south-america-four-table'>

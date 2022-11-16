@@ -18,7 +18,7 @@ const DS = () => {
         </a>{' '}
         that I looked up many times before. I thought it would be beneficial to
         all if I made a reference guide. The structure of the reference guide is
-        based off of free courses provided by{' '}
+        based on free courses provided by{' '}
         <a
           href='https://www.kaggle.com/'
           target='_blank'

@@ -5,9 +5,9 @@ import { BsFillPersonFill } from 'react-icons/bs'
 const DataScience = () => {
   return (
     <div className='home-ds-container'>
-      <h4 className='home-ds-intro'>
+      <h1 className='home-ds-intro'>
         Who is a Data Scientist? Can they actually program?
-      </h4>
+      </h1>
       <div className='home-ds-first-bubble'>
         <p className='bubble-text'>
           Aren't they old geezers who teach linear regressions on clean data at

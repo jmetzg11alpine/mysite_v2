@@ -16,7 +16,7 @@ const Stocks = () => {
         until there is a relatively small list of stocks to focus on.
       </p>
       <p>
-        The following strategey can be implemented with Python and these
+        The following strategy can be implemented with Python and these
         following packages:
       </p>
       <ul className='stocks-ul'>

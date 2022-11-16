@@ -30,10 +30,10 @@ export const questions = [
   {
     questionsText: 'A murder is a group of?',
     answerOptions: [
-      { answerText: 'crows', isCorrect: false },
+      { answerText: 'crows', isCorrect: true },
       { answerText: 'jackals', isCorrect: false },
       { answerText: 'hawks', isCorrect: false },
-      { answerText: 'coyotes', isCorrect: true },
+      { answerText: 'coyotes', isCorrect: false },
     ],
   },
   {
@@ -55,7 +55,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'Where in the body in blod produced?',
+    questionsText: 'Where in the body in blood produced?',
     answerOptions: [
       { answerText: 'bones', isCorrect: true },
       { answerText: 'heart', isCorrect: false },

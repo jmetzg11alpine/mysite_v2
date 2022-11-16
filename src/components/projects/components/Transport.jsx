@@ -9,7 +9,7 @@ const Transport = () => {
   return (
     <div className='transport-container projects-container'>
       <div className='transport-title'>
-        <h1>San Dieog Transportation</h1>
+        <h1>San Diego Transportation</h1>
         <h2>Objective:</h2>
         <p>
           San Diego is an affluent city in Southern California where many people

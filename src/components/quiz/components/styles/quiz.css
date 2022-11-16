@@ -3,8 +3,12 @@
   height: 20vh;
 }
 
-.info-container h1 {
-  font-size: 3.7vh;
+.quiz-container h1 {
+  font-size: 2vw;
+}
+
+.quiz-container p {
+  font-size: 1vw;
 }
 
 .quiz-start {
