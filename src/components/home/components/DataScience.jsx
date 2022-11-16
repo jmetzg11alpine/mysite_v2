@@ -6,7 +6,7 @@ const DataScience = () => {
   return (
     <div className='home-ds-container'>
       <h4 className='home-ds-intro'>
-        Who is Data Scientist? Can they actually program?
+        Who is a Data Scientist? Can they actually program?
       </h4>
       <div className='home-ds-first-bubble'>
         <p className='bubble-text'>

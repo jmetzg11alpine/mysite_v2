@@ -13,10 +13,16 @@ const WorkHistory = () => {
           <th className='about-workhistory-column-four'>Date</th>
         </tr>
         <tr>
-          <td>Data Scientish</td>
+          <td>Data Scientist</td>
           <td>Phoenix, AZ</td>
           <td>BlueOptima</td>
           <td>2022 - current</td>
+        </tr>
+        <tr>
+          <td>Data Analyst</td>
+          <td>Istanbule, Turkey</td>
+          <td>FindBobi</td>
+          <td>2021 - 2022</td>
         </tr>
         <tr>
           <td>Research Assistant</td>
