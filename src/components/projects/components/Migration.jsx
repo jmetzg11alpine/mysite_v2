@@ -9,7 +9,7 @@ import mig_8 from '../img/r_mig_8.png'
 
 const Migration = () => {
   return (
-    <div className='migration-container'>
+    <div className='migration-container projects-container'>
       <h1>Russian Migration</h1>
       <h2>Objective:</h2>
       <p>

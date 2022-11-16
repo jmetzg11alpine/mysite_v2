@@ -11,7 +11,7 @@ import fdi_9 from '../img/fdi_9.png'
 
 const FDI = () => {
   return (
-    <div className='fdi-container'>
+    <div className='fdi-container projects-container'>
       <div className='fdi-title'>
         <h1>Foreign Direct Investment</h1>
         <h2>Objective:</h2>

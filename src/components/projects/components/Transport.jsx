@@ -7,7 +7,7 @@ import sd_5 from '../img/sd_5.png'
 
 const Transport = () => {
   return (
-    <div className='transport-container'>
+    <div className='transport-container projects-container'>
       <div className='transport-title'>
         <h1>San Dieog Transportation</h1>
         <h2>Objective:</h2>

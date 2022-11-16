@@ -32,30 +32,30 @@ const descriptionText = [
   'Are the most expensive apartments are in the center of Moscow?',
 ]
 const linkStyle = {
+  display: 'block',
   textDecoration: 'none',
   transition: '400ms ease-in-out',
 }
+
 const Projects = () => {
   return (
     <>
       <div className='project-container'>
         {projectPaths.map((data, i) => (
-          <div key={i} className='card'>
-            <img className='project-image' src={images[i]} alt={data} />
-            <h3>{projectTitles[i]}</h3>
-            <p className='card-description'>{descriptionText[i]}</p>
-            <hr className='hr' />
-            <div className='link'>
-              <Link
-                to={data}
-                style={linkStyle}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                View Here
-              </Link>
+          <Link
+            to={data}
+            style={linkStyle}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div key={i} className='card'>
+              <img className='project-image' src={images[i]} alt={data} />
+              <h3>{projectTitles[i]}</h3>
+              <p className='card-description'>{descriptionText[i]}</p>
+              <hr className='hr' />
+              <div className='link'>View Here</div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </>

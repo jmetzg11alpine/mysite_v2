@@ -2,7 +2,7 @@ import '../styles/ds.css'
 import guide from '../img/kaggleReference.pdf'
 const DS = () => {
   return (
-    <div className='ds-container'>
+    <div className='ds-container projects-container'>
       <h1>Data Science Reference Guide</h1>
       <p>
         While doing data science projects or course work I often found myself

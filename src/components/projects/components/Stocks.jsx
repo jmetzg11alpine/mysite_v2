@@ -5,7 +5,7 @@ import stocks_3 from '../img/stocks_3.png'
 
 const Stocks = () => {
   return (
-    <div className='stocks-container'>
+    <div className='stocks-container projects-container'>
       <h1>An Automated Strategy for Picking Stocks</h1>
       <p>
         The following is a strategy to choose what stocks to buy. The theory of

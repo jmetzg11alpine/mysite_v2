@@ -6,29 +6,30 @@
 
 .about-form-container {
   border-radius: 1.8vw;
-  background-color: #3d348b;
+  background-color: #0070c0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10vw;
+  justify-content: left;
+  align-items: flex-start;
+  margin: 0 3vw 0 1vw;
   padding: 0.7vw 0;
+  width: 35vw;
 }
 
 .about-form-container form {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  width: 50vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 2vw;
 }
 
 .about-form-title {
-  margin: 0.3vw 0;
-  color: #ffb20f;
+  color: white;
 }
 
 .about-form-inputContent {
-  width: 70vw; /* Full width */
+  width: 30vw; /* Full width */
   padding: 0.5vw; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -43,13 +44,15 @@
   height: 3vw;
   border-radius: 12px;
   color: white;
-  background: #ffb20f;
+  background: #009fb7;
   font-size: 2vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-form-button:hover {
   font-size: 2.2vw;
-  background: #fcaf09;
+  background: #0290a6;
 }
 
 .about-form-popup-in {

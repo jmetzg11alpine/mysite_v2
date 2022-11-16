@@ -1,5 +1,6 @@
-/* .home-picture-container {
-} */
+.home-picture-container {
+  margin-top: -15vw;
+}
 
 .picture-tools-title p {
   font-size: 1.7vw;
@@ -32,12 +33,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 10vh;
   left: 5vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .zero:hover ~ .zero-tooltip {
@@ -51,12 +52,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 10vh;
   left: 15vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .one:hover ~ .one-tooltip {
@@ -71,12 +72,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 19vh;
   left: 19vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .two:hover ~ .two-tooltip {
@@ -91,12 +92,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 25vh;
   left: 12vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .three:hover ~ .three-tooltip {
@@ -111,12 +112,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 26vh;
   left: 8vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .four:hover ~ .four-tooltip {
@@ -131,12 +132,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 25vh;
   left: 2vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .five:hover ~ .five-tooltip {
@@ -151,12 +152,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 20vh;
   left: 0vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .six:hover ~ .six-tooltip {
@@ -171,12 +172,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: 10vh;
   left: 0vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .seven:hover ~ .seven-tooltip {
@@ -191,12 +192,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: -1vh;
   left: 0vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .eight:hover ~ .eight-tooltip {
@@ -211,12 +212,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   bottom: 2vh;
   left: 0vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .nine:hover ~ .nine-tooltip {
@@ -231,12 +232,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   bottom: 5vh;
   left: 6vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .ten:hover ~ .ten-tooltip {
@@ -250,12 +251,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   bottom: 2vh;
   left: 12vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .eleven:hover ~ .eleven-tooltip {
@@ -270,12 +271,12 @@
   position: absolute;
   visibility: hidden;
   color: white;
-  background-color: #fb4d46;
+  background-color: #009fb7;
   top: -2vh;
   left: 16vw;
   z-index: 1;
   padding: 0.8vw;
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 .twelve:hover ~ .twelve-tooltip {

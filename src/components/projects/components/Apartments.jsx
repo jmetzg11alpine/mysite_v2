@@ -4,7 +4,7 @@ import ap_3 from '../img/r_ap_3.png'
 import '../styles/apartments.css'
 const Apartments = () => {
   return (
-    <div className='apartments-container'>
+    <div className='apartments-container projects-container'>
       <h1>Where are the expensive apartments in Moscow?</h1>
       <h2>Objective:</h2>
       <p>

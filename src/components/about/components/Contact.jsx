@@ -48,7 +48,9 @@ const Contact = () => {
     <>
       <div className='about-form-container'>
         <form onSubmit={sendMail}>
-          <h2 className='about-form-title'>CONTACT</h2>
+          <div className='about-form-title'>
+            <h2>CONTACT</h2>
+          </div>
           <input
             className='about-form-inputContent'
             type='text'
