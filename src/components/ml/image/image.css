@@ -1,0 +1,33 @@
+.image-grid-container {
+  width: 60vw;
+  height: 40vw;
+  background: lightblue;
+}
+
+.grid-container {
+  width: 600px;
+  height: 600px;
+  margin: 2vw;
+  border: 1vw solid rgb(230, 219, 219);
+}
+.cell {
+  float: left;
+  background: blue;
+  width: 19.8px;
+  height: 19.8px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.actived {
+  background: yellow;
+}
+
+.image-button-container {
+  display: flex;
+  width: 32vw;
+  justify-content: space-between;
+  margin: 2vw;
+}

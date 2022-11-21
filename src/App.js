@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
+import Image from './components/ml/image/Image'
 import Livability from './components/livability/Livability'
 import GraphContainer from './components/livability/components/chart/GraphContainer'
 import DataFlow from './components/livability/components/DataFlow'
@@ -30,6 +31,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/image' element={<Image />} />
           <Route path='/livability' element={<Livability />}>
             <Route path='' element={<GraphContainer />} />
             <Route path='data_flow' element={<DataFlow />} />
