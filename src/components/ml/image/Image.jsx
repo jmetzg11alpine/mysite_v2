@@ -99,9 +99,8 @@ const Image = () => {
         because people draw numbers differently and this model got its training
         data from me drawing each number 100 times. We can solve the problems if
         you help. Draw a number and then select the number that you drew. This
-        will add more data to train the model with. If I collect enough data
-        from enough people then I should be able to build a pretty good model.
-        Thank you:)
+        will add more diverse data to train the model with, and in the end will
+        result in a better model. Thank you:)
       </p>
       <Grid
         data={data}
