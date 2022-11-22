@@ -1,6 +1,7 @@
 import './image.css'
 import { useState, useEffect } from 'react'
-// import axios from 'axios'
+import Grid from './components/Grid'
+import Training from './components/Training'
 import * as tf from '@tensorflow/tfjs'
 
 const Image = () => {
@@ -8,6 +9,7 @@ const Image = () => {
   const [mouseState, setMouseState] = useState(false)
   const [prediction, setPrediction] = useState(0)
   const [model, setModel] = useState(null)
+  const [trainingNumber, setTrainingNumber] = useState(null)
 
   const model_url =
     'https://raw.githubusercontent.com/jmetzg11alpine/number_image_backend/main/tfjs_model_dir/model.json'
@@ -43,15 +45,6 @@ const Image = () => {
   }
 
   const handleSubmitData = () => {
-    // console.log(data)
-
-    // This was to get the training data sent to a backend
-    // let num = 9
-    // const body = { number: num, data: data }
-    // axios
-    //   .post('http://127.0.0.1:8000/', body)
-    //   .then((res) => console.log(num, 'was recorded'))
-
     // when using local backend
     // const body = { data: data }
     // axios.post('http://127.0.0.1:8000/prediction', body).then((res) => {
@@ -62,6 +55,15 @@ const Image = () => {
     get_prediction(data)
     handleRefresh()
   }
+
+  // const handleAddTrainingData = () => {
+  //   // This was to get the training data sent to a backend
+  //   handleRefresh()
+  //   const body = { number: trainingNumber, data: data }
+  //   axios
+  //     .post(backend_url, body)
+  //     .then((res) => console.log(trainingNumber, 'was recorded'))
+  // }
 
   const handleMouseMove = (i) => {
     if (mouseState) {
@@ -75,7 +77,7 @@ const Image = () => {
     setMouseState(true)
   }
 
-  const handleMouseup = () => {
+  const handleMouseUp = () => {
     setMouseState(false)
   }
 
@@ -90,30 +92,34 @@ const Image = () => {
 
   return (
     <div className='image-grid-container'>
-      <div className='grid-container'>
-        {[...Array(28 * 28)].map((e, i) => {
-          let classes = `cell-${i} cell`
-          if (data[i] === 1) {
-            classes += ' actived'
-          }
-          return (
-            <div
-              key={i}
-              className={classes}
-              onMouseDown={handleMouseDown}
-              onMouseUp={handleMouseup}
-              onMouseMove={() => handleMouseMove(i)}
-            ></div>
-          )
-        })}
-      </div>
+      <p>
+        Draw numbers in the blue box with your mouse and then click 'Predict'.
+        If you got a correct number than that means you draw numbers like me!
+        However, I've noticed that the model doesn't work with everyone. That is
+        because people draw numbers differently and this model got its training
+        data from me drawing each number 100 times. We can solve the problems if
+        you help. Draw a number and then select the number that you drew. This
+        will add more data to train the model with. If I collect enough data
+        from enough people then I should be able to build a pretty good model.
+        Thank you:)
+      </p>
+      <Grid
+        data={data}
+        handleMouseDown={handleMouseDown}
+        handleMouseUp={handleMouseUp}
+        handleMouseMove={handleMouseMove}
+      />
       <div className='image-button-container'>
         <button onClick={handleRefresh}>Refresh</button>
-        <button onClick={handleSubmitData}>Send Data</button>
-      </div>
-      <div>
+        <button onClick={handleSubmitData}>Predict</button>
         <h1>Prediction: {prediction}</h1>
       </div>
+      <Training
+        trainingNumber={trainingNumber}
+        setTrainingNumber={setTrainingNumber}
+        handleRefresh={handleRefresh}
+        data={data}
+      />
     </div>
   )
 }

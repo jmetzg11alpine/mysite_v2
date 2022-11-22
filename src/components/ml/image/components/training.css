@@ -1,0 +1,21 @@
+.image-number-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image-number-buttons div {
+  border: 1px solid black;
+  padding: 0.6vw;
+  cursor: pointer;
+  background: lightblue;
+}
+
+.image-number-buttons div:hover {
+  background: rgb(201, 230, 173);
+}
+
+.image-training-bottom-message {
+  font-size: 1vw;
+  margin: 1.5vw;
+}

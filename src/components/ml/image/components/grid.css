@@ -1,0 +1,26 @@
+.image-grid-container {
+  width: 60vw;
+  height: 40vw;
+  /* background: lightblue; */
+}
+
+.grid-container {
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+  border: 13px solid rgb(230, 219, 219);
+}
+.cell {
+  float: left;
+  background: blue;
+  width: 20.5px;
+  height: 20.5px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.actived {
+  background: yellow;
+}
