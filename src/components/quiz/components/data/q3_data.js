@@ -82,7 +82,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'When did the mongols invade Europe?',
+    questionsText: 'When did the Mongols invade Europe?',
     answerOptions: [
       { answerText: '1200s', isCorrect: true },
       { answerText: '1300s', isCorrect: false },

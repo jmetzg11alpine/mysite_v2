@@ -64,7 +64,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'Main ingredient in tequila',
+    questionsText: 'Main ingredient in tequila?',
     answerOptions: [
       { answerText: 'sugar', isCorrect: false },
       { answerText: 'maiz', isCorrect: false },
@@ -82,7 +82,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'First living creature to enter space',
+    questionsText: 'First living creature to enter space?',
     answerOptions: [
       { answerText: 'cat', isCorrect: false },
       { answerText: 'flies', isCorrect: true },

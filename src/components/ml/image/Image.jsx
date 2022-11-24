@@ -56,15 +56,6 @@ const Image = () => {
     handleRefresh()
   }
 
-  // const handleAddTrainingData = () => {
-  //   // This was to get the training data sent to a backend
-  //   handleRefresh()
-  //   const body = { number: trainingNumber, data: data }
-  //   axios
-  //     .post(backend_url, body)
-  //     .then((res) => console.log(trainingNumber, 'was recorded'))
-  // }
-
   const handleMouseMove = (i) => {
     if (mouseState) {
       let newArr = [...data]
