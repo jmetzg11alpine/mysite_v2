@@ -4,7 +4,7 @@ const questions = [
     answerOptions: [
       { answerText: 'Egypt', isCorrect: false },
       { answerText: 'Nigeria', isCorrect: true },
-      { answerText: 'Ethipia', isCorrect: false },
+      { answerText: 'Ethiopia', isCorrect: false },
       { answerText: 'DR Congo', isCorrect: false },
     ],
   },
@@ -59,7 +59,7 @@ const questions = [
       { answerText: 'DC', isCorrect: false },
       { answerText: 'Dallas', isCorrect: false },
       { answerText: 'Denver', isCorrect: true },
-      { answerText: 'Huston', isCorrect: false },
+      { answerText: 'Houston', isCorrect: false },
     ],
   },
   {

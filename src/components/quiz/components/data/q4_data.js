@@ -14,12 +14,12 @@ export const questions = [
     answerOptions: [
       { answerText: 'guitar', isCorrect: false },
       { answerText: 'piano', isCorrect: false },
-      { answerText: 'fluet', isCorrect: false },
+      { answerText: 'flute', isCorrect: false },
       { answerText: 'violin', isCorrect: true },
     ],
   },
   {
-    questionsText: 'Whats is his first foreign language?',
+    questionsText: 'What is his first foreign language?',
     answerOptions: [
       { answerText: 'Spanish', isCorrect: true },
       { answerText: 'French', isCorrect: false },
@@ -64,7 +64,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'His diet is 80% of?',
+    questionsText: 'His diet is 80% ___?',
     answerOptions: [
       { answerText: 'soup and vegetables', isCorrect: false },
       { answerText: 'burritos', isCorrect: false },

@@ -55,7 +55,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'Where in the body in blood produced?',
+    questionsText: 'Where in the body is blood produced?',
     answerOptions: [
       { answerText: 'bones', isCorrect: true },
       { answerText: 'heart', isCorrect: false },
@@ -68,7 +68,7 @@ export const questions = [
     answerOptions: [
       { answerText: 'sugar', isCorrect: false },
       { answerText: 'maiz', isCorrect: false },
-      { answerText: 'agava', isCorrect: true },
+      { answerText: 'agave', isCorrect: true },
       { answerText: 'beans', isCorrect: false },
     ],
   },

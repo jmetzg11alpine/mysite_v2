@@ -9,7 +9,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'When did the catholics conquer all of Spain?',
+    questionsText: 'When did the Catholics conquer all of Spain?',
     answerOptions: [
       { answerText: '1578', isCorrect: false },
       { answerText: '1527', isCorrect: false },
@@ -36,7 +36,7 @@ export const questions = [
     ],
   },
   {
-    questionsText: 'How many republics were in the Soviet Untion?',
+    questionsText: 'How many republics were in the Soviet Union?',
     answerOptions: [
       { answerText: '11', isCorrect: false },
       { answerText: '13', isCorrect: false },

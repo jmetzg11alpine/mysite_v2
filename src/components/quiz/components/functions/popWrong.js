@@ -17,6 +17,7 @@ const allTexts = [
   'erróneo',
   'неправильный',
   'ошибка',
+  'pauvre naze',
 ]
 
 export default popWrong

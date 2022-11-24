@@ -19,12 +19,14 @@ const allTexts = [
   'amazing',
   'incredible',
   'fantastic',
-  'unvelievable',
+  'unbelievable',
   'такая печенька ты',
   'eres genial',
   'нечего себе',
   'genius',
   'correct',
+  'parfait',
+  'incroyable',
 ]
 
 export default popCorrect
