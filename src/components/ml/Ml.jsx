@@ -14,7 +14,7 @@ const Ml = () => {
         </Link>
         -
         <Link to='image' style={linkStyle}>
-          Image REcognition
+          Image Recognition
         </Link>
       </div>
       <Outlet />

@@ -120,7 +120,7 @@ const Directory = () => {
           </a>
           <p>
             These are various projects that I did while I was just learning
-            python and I had just finished graduate school. It was from these
+            Python and I had just finished graduate school. It was from these
             individual projects that I gained the skills to break into the Data
             Science sphere.
           </p>
