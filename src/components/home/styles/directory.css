@@ -1,0 +1,13 @@
+.home-directory-container {
+  text-align: left;
+  list-style-type: none;
+}
+
+.home-description-container h3 {
+  text-align: left;
+  font-size: 1.3vw;
+}
+
+.home-description-container p {
+  margin: 0.2vw 0 0.8vw 1vw;
+}

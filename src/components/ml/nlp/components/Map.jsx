@@ -62,31 +62,31 @@ const Map = ({ newsData, geoData }) => {
     .scale(width / 1.1)
   const path = d3.geoPath(projection)
 
-  const colors = [
-    '#ff0000',
-    '#008000',
-    '#0000ff',
-    '#ffa500',
-    '#ffff00',
-    '#4b0082',
-    '#ee82ee',
-    '#313335',
-  ]
-  const colorText = [
-    'crime',
-    'econ',
-    'nature',
-    'gov',
-    'tech',
-    'world',
-    'society',
-    'error',
-  ]
-
   useEffect(() => {
     const svg = d3.select(ReferenceD3.current)
     svg.selectAll('*').remove()
     const legend = d3.select(Legend.current)
+    const colors = [
+      '#ff0000',
+      '#008000',
+      '#0000ff',
+      '#ffa500',
+      '#ffff00',
+      '#4b0082',
+      '#ee82ee',
+      '#313335',
+    ]
+    const colorText = [
+      'crime',
+      'econ',
+      'nature',
+      'gov',
+      'tech',
+      'world',
+      'society',
+      'error',
+    ]
+
     legend.selectAll('*').remove()
     legend
       .attr('width', width * 0.11)
@@ -167,6 +167,7 @@ const Map = ({ newsData, geoData }) => {
       setShowTitle(getTitle(d, date, newsData))
       setShowBody(getBody(d, date, newsData))
       setShowUrl(getUrl(d, date, newsData))
+      tooldiv.style('visibility', 'hidden')
     }
 
     svg
@@ -205,7 +206,20 @@ const Map = ({ newsData, geoData }) => {
       .on('mouseover', mouseOver)
       .on('mouseleave', mouseLeave)
       .on('click', handleClick)
-  }, [date])
+  }, [
+    date,
+    Legend,
+    ReferenceD3,
+    geoData,
+    height,
+    margin.bottom,
+    margin.left,
+    margin.right,
+    margin.top,
+    newsData,
+    path,
+    width,
+  ])
 
   return (
     <div>
@@ -225,7 +239,12 @@ const Map = ({ newsData, geoData }) => {
             <div className='states-text-container-state'>{showState}</div>
             <div className='states-text-container-title'>{showTitle}</div>
             <div className='states-text-container-body'>{showBody}</div>
-            <a className='states-text-container-link' href={showUrl}>
+            <a
+              className='states-text-container-link'
+              href={showUrl}
+              rel='noreferrer'
+              target='_blank'
+            >
               link
             </a>
           </div>

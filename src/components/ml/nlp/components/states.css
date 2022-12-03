@@ -1,3 +1,8 @@
+.states-container {
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
 .states-tooltip {
   display: flex;
   flex-direction: column;

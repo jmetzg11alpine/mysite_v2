@@ -1,5 +1,7 @@
 .home-container {
   margin: 0.8vw;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .home-container h1 {

@@ -290,3 +290,11 @@
 .twelve:hover ~ .twelve-tooltip {
   visibility: visible;
 }
+
+/*  */
+.home-directory-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 4vw;
+}

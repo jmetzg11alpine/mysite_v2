@@ -1,6 +1,7 @@
 import axios from 'axios'
 import Map from './components/Map'
 import { useState, useEffect } from 'react'
+import './components/states.css'
 
 const States = () => {
   const [newsData, setNewsData] = useState('')
@@ -22,7 +23,7 @@ const States = () => {
   }, [])
 
   return (
-    <div className='App'>
+    <div className='states-container'>
       <h1>News Articles</h1>
       <p>Most recent New York Times Article for each state</p>
       {newsData.length === 0 || geoData.length === 0 ? (
