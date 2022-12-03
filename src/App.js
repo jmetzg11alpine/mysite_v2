@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
+import ML from './components/ml/Ml'
+import States from './components/ml/nlp/States'
 import Image from './components/ml/image/Image'
 import Livability from './components/livability/Livability'
 import GraphContainer from './components/livability/components/chart/GraphContainer'
@@ -22,8 +24,6 @@ import Apartments from './components/projects/components/Apartments'
 import About from './components/about/About'
 import './App.css'
 
-// Put an outlet when you want a second header (livability and quiz)
-// make an index when you just want a place holder with nested routes (projects)
 function App() {
   return (
     <div>
@@ -31,7 +31,10 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/image' element={<Image />} />
+          <Route path='/ml' element={<ML />}>
+            <Route path='' element={<States />} />
+            <Route path='image' element={<Image />} />
+          </Route>
           <Route path='/livability' element={<Livability />}>
             <Route path='' element={<GraphContainer />} />
             <Route path='data_flow' element={<DataFlow />} />

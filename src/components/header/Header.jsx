@@ -13,6 +13,10 @@ const Header = () => {
         Home
       </Link>
       |
+      <Link to='/ml' style={linkStyle}>
+        ML
+      </Link>
+      |
       <Link to='/livability' style={linkStyle}>
         Livability
       </Link>

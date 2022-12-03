@@ -1,12 +1,11 @@
 .nav-livability {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  background-color: #aaabbc;
-  height: 3.5vh;
-  font-size: 3vh;
-  text-decoration: 'none';
+  justify-content: space-evenly;
+  background: #3d348b;
   color: white;
+  height: 3.5vh;
+  font-size: 2vh;
 }
 
 .svg {

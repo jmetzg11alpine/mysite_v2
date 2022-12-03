@@ -1,0 +1,9 @@
+.nav-ml {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #3d348b;
+  color: white;
+  height: 3.5vh;
+  font-size: 2vh;
+}

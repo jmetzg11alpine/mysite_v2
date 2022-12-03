@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Grid from './components/Grid'
 import Training from './components/Training'
 import * as tf from '@tensorflow/tfjs'
+import axios from 'axios'
 
 const Image = () => {
   const [data, setData] = useState(new Array(28 * 28).fill(0))
@@ -46,11 +47,11 @@ const Image = () => {
 
   const handleSubmitData = () => {
     // when using local backend
-    // const body = { data: data }
-    // axios.post('http://127.0.0.1:8000/prediction', body).then((res) => {
-    //   let data = res['data']
-    //   setPrediction(data['prediction'])
-    // })
+    const body = { data: data }
+    axios.post('http://127.0.0.1:8000/prediction', body).then((res) => {
+      let data = res['data']
+      setPrediction(data['prediction'])
+    })
 
     get_prediction(data)
     handleRefresh()

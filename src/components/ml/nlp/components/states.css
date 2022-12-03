@@ -1,0 +1,47 @@
+.states-tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.states-tooltip p {
+  padding: 0.1vw 0.1vw;
+  margin: 0;
+}
+
+.states-tooltip a {
+  padding: 0;
+}
+
+.states-map-text-container {
+  display: flex;
+  justify-content: row;
+}
+
+.states-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1vw;
+}
+
+.states-text-container-state {
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-bottom: 0.5vw;
+  text-decoration: underline;
+}
+
+.states-text-container-title {
+  font-size: 1.2vw;
+  margin-bottom: 0.5vw;
+}
+
+.states-text-container-body {
+  font-size: 1vw;
+  margin-bottom: 1vw;
+}
