@@ -32,7 +32,11 @@ const Directory = () => {
             >
               BART
             </a>{' '}
-            model. The results are display with D3.js on an interactive map.{' '}
+            model through{' '}
+            <a href='https://nlpcloud.com/' rel='noreferrer' target='_blank'>
+              NLP Cloud
+            </a>
+            . The results are display with D3.js on an interactive map.{' '}
           </p>
           <p>
             The second project is an image recogniztion model that was created
@@ -61,7 +65,7 @@ const Directory = () => {
             rel='noreferrer'
             target='_blank'
           >
-            Interactive Graphics with City Data
+            Interactive Graphic with City Data
           </a>
           <p>
             These graphics where made with D3.js and such a strategy could be
