@@ -33,3 +33,8 @@
 .selection-container button:focus {
   outline: none;
 }
+
+#selections-output,
+#selections-title {
+  margin-right: 8vw;
+}

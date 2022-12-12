@@ -41,7 +41,7 @@ const Selections = () => {
   return (
     <div ref={d3REF} className='selection-container'>
       <div id='selections-title'>
-        <h1>Select Colors</h1>
+        <h1>Select a Color</h1>
       </div>
       <div className='selections-buttons'>
         <button
