@@ -15,6 +15,7 @@ import Q3 from './components/quiz/components/Q3'
 import Q4 from './components/quiz/components/Q4'
 import World from './components/world/World'
 import Projects from './components/projects/Projects'
+import D3 from './components/projects/components/d3_folder/D3'
 import FDI from './components/projects/components/FDI'
 import DS from './components/projects/components/DS'
 import Transport from './components/projects/components/Transport'
@@ -49,6 +50,7 @@ function App() {
           <Route path='/world' element={<World />} />
           <Route path='/projects'>
             <Route index element={<Projects />} />
+            <Route path='d3_projects' element={<D3 />} />
             <Route path='fdi' element={<FDI />} />
             <Route path='ds' element={<DS />} />
             <Route path='transport' element={<Transport />} />

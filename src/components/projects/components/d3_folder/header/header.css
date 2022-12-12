@@ -1,0 +1,19 @@
+.d3-header-container {
+  margin: 0.5vw 0.8vw 0.8vw 0.8vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.d3-header-container button {
+  padding: 0.2vw 0.4vw;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background: #3d348b;
+  color: white;
+  font-size: 1vw;
+}
+
+.d3-header-container button:hover {
+  background: #fb4d46;
+}

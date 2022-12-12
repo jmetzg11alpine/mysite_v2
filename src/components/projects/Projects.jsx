@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import D3Img from './img/d3.png'
 import fdiImg from './img/fdi.png'
 import kaggleImg from './img/kaggle-icon.svg'
 import sdImg from './img/mts.png'
@@ -7,6 +8,7 @@ import stocksImg from './img/stocks.jpeg'
 import apartmentImg from './img/moscow_apartments.jpeg'
 import './styles/cards.css'
 const projectPaths = [
+  'd3_projects',
   'fdi',
   'ds',
   'transport',
@@ -14,8 +16,17 @@ const projectPaths = [
   'stocks',
   'apartments',
 ]
-const images = [fdiImg, kaggleImg, sdImg, bearImg, stocksImg, apartmentImg]
+const images = [
+  D3Img,
+  fdiImg,
+  kaggleImg,
+  sdImg,
+  bearImg,
+  stocksImg,
+  apartmentImg,
+]
 const projectTitles = [
+  'D3',
   'FDI',
   'Study Guide',
   'San Diego Buses',
@@ -24,6 +35,7 @@ const projectTitles = [
   'Moscow Apartments',
 ]
 const descriptionText = [
+  'A deep dive into the various functionality of D3.js',
   'Research into which countries receive Foreign Direct Investments and why',
   'A data science reference document inspired by Kaggle',
   'Do bus stops  depend on location or income levels?',

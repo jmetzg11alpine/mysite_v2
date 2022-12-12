@@ -1,0 +1,35 @@
+#selections-title,
+.selections-buttons,
+.selections-circles,
+.selections-squares,
+.selections-rects,
+#selections-output {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selection-container svg {
+  padding: 1vw;
+}
+
+.selections-circle,
+.selections-square,
+.selections-rectangle {
+  fill: whitesmoke;
+}
+
+.selection-container button {
+  border-color: gray;
+  border-style: solid;
+  color: white;
+  font-size: 1.4vw;
+  padding: 0.4vw 0.8vw;
+  margin: 0.8vw;
+  cursor: pointer;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.selection-container button:focus {
+  outline: none;
+}

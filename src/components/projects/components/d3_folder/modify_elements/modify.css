@@ -1,0 +1,186 @@
+.d3-movie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 900px;
+  margin-left: 50px;
+}
+
+.d3-movie-title {
+  color: #005cc8;
+}
+
+.d3-movie-title h1 {
+  margin-bottom: 5px;
+}
+
+.d3-movie-title p {
+  margin-top: 5px;
+  color: rgb(124, 124, 124);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.d3-movie-container p {
+  margin-top: 10px;
+  color: rgb(124, 124, 124);
+
+  font-weight: 600;
+}
+
+#d3-movieinfo {
+  display: flex;
+  height: 300px;
+}
+
+#d3-movielist {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(241, 241, 241, 0.4);
+}
+
+#d3-movielist div {
+  background-color: rgb(241, 241, 241);
+
+  cursor: pointer;
+  border-radius: 5px;
+  color: gray;
+}
+
+#d3-movielist div:hover {
+  background-color: #005cc8;
+  color: white;
+  font-weight: bold;
+}
+
+#d3-moviepost {
+  width: 300px;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(241, 241, 241, 0.4);
+}
+
+#d3-moviepost h2 {
+  color: #005cc8;
+}
+
+#d3-moviepost p {
+  color: rgb(63, 63, 63);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#d3-moviepost p span {
+  color: #005cc8;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#d3-move-choicesubmit {
+  padding-top: 10px;
+}
+
+#d3-movie-choicesubmit label {
+  padding: 0.4vw;
+  color: gray;
+}
+
+#d3-movie-submit {
+  margin: 1vw;
+  padding: 2px 2px;
+  width: 80px;
+  background-color: white;
+  border: 0.1vw solid #005cc8;
+  border-radius: 5px;
+  color: #005cc8;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#d3-movie-submit:hover {
+  background-color: #005cc8;
+  color: white;
+}
+
+#d3-movie-submit:focus {
+  outline: none;
+}
+
+#d3-cbu,
+#d3-cb15,
+#d3-cb12a,
+#d3-cbpg {
+  cursor: pointer;
+}
+
+#d3-movie-feedback {
+  color: salmon;
+}
+
+#d3-movie-charts {
+  display: inline-table;
+}
+
+#d3-movie-count {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#d3-movie-count div {
+  max-width: 100px;
+}
+
+#d3-movie-legend {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#d3-movie-legend > div {
+  height: 25px;
+  min-width: 150px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+#d3-movie-legend > div > div {
+  border-radius: 10px;
+}
+
+#d3-movie-legend > div > p {
+  margin: 0 0 0 5px;
+  font-size: small;
+  color: gray;
+}
+
+.d3-movie-gross-dura-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#d3-movie-gross {
+  width: 450px;
+  height: 300px;
+}
+
+#d3-movie-dura {
+  width: 450px;
+  height: 300px;
+}
+
+#d3-movie-votes {
+  width: 900px;
+  /* padding:10px; */
+  height: 300px;
+  justify-content: space-around;
+}

@@ -1,0 +1,155 @@
+.concepts-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.concepts-container div {
+  margin: 1vw;
+}
+
+.normal {
+  background-color: blue;
+}
+
+.circle {
+  background-color: green;
+}
+.circle circle {
+  fill: magenta;
+  stroke: beige;
+  stroke-width: 6px;
+}
+
+.rectangle {
+  background-color: violet;
+}
+
+.rectangle rect {
+  fill: thistle;
+  z-index: 1;
+}
+
+.rectangle .second-rect {
+  fill: rebeccapurple;
+}
+
+.square {
+  background-color: cadetblue;
+}
+
+.square {
+  fill: indianred;
+}
+
+.ellipse {
+  background-color: blueviolet;
+}
+
+.ellipse ellipse {
+  fill: palegreen;
+}
+
+.line {
+  background-color: navajowhite;
+}
+
+.line line {
+  stroke: orange;
+  stroke-width: 15px;
+}
+
+.triangle {
+  background-color: yellowgreen;
+}
+
+.triangle polygon {
+  fill: orangered;
+}
+
+.pentagon {
+  background-color: gold;
+}
+
+.pentagon {
+  fill: midnightblue;
+}
+
+.star {
+  background-color: hotpink;
+}
+
+.poly-line {
+  background-color: rebeccapurple;
+}
+
+.poly-line polyline {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.text-element {
+  background-color: aqua;
+}
+
+.path {
+  background-color: aquamarine;
+}
+
+.path path {
+  fill: plum;
+  stroke: blue;
+  stroke-width: 2px;
+}
+
+.transform {
+  background-color: bisque;
+}
+
+.transform rect {
+  fill: mediumpurple;
+}
+
+.transform .one {
+  transform: rotate(20deg);
+}
+
+.transform .two {
+  transform: rotate(20deg) translate(60px, -80px);
+}
+
+.transform .three {
+  transform: rotate(20deg) translate(40px, 30px) skewX(20deg) scale(0.2);
+}
+
+.group {
+  background-color: blueviolet;
+}
+
+.group g {
+  stroke: yellow;
+  stroke-width: 2px;
+  fill: orangered;
+}
+
+.viewport {
+  background-color: aliceblue;
+}
+
+.bar-chart {
+  background-color: whitesmoke;
+}
+
+.bar-chart line {
+  stroke: red;
+  stroke-width: 4px;
+}
+
+.bar-chart rect {
+  fill: red;
+}
+
+.bar-chart text {
+  stroke: white;
+}
