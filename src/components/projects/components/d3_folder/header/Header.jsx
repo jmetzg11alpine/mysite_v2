@@ -6,20 +6,20 @@ const Header = ({ section, setSection }) => {
   }
   return (
     <div className='d3-header-container'>
-      <button onClick={handleClick} value='svgs'>
-        Basic D3 Elements
-      </button>
       <button onClick={handleClick} value='colors'>
-        Element Selector
+        Color Selector
       </button>
       <button onClick={handleClick} value='modify'>
-        Modify Elements with Movie Data
+        Movie Data
       </button>
       <button onClick={handleClick} value='joining_data'>
-        Joining Data with Planet Data
+        Planet Data
       </button>
       <button onClick={handleClick} value='handling_events'>
-        Handling Events with Car Data
+        Ford Car Sales
+      </button>
+      <button onClick={handleClick} value='control_flow'>
+        Dry Fruits
       </button>
     </div>
   )
