@@ -5,6 +5,7 @@ import Selections from './selections/Selections'
 import Modify from './modify_elements/Modify'
 import JoiningData from './joining_data/JoiningData.jsx'
 import HandlingEvents from './handling_events/HandlingEvents'
+import DryFruits from './dry_fruits/DryFruits'
 import Density from './density/Density'
 
 function D3() {
@@ -21,6 +22,8 @@ function D3() {
         <JoiningData />
       ) : section === 'handling_events' ? (
         <HandlingEvents />
+      ) : section === 'dry_fruits' ? (
+        <DryFruits />
       ) : (
         <Density />
       )}

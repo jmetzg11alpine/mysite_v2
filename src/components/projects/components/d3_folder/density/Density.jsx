@@ -81,7 +81,7 @@ const Scales = () => {
       <div id='d3-density-output'>
         <h3>
           Enter any number between 0 and 100 to see what number would be scaled
-          to the population density. 100 = Mocao, 0 = zero population
+          to the population density. 100 = Macao, 0 = zero population
         </h3>
         <input
           value={input}
