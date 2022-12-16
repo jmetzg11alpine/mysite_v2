@@ -1,11 +1,11 @@
 import { useState } from 'react'
+import './d3.css'
 import Header from './header/Header'
 import Selections from './selections/Selections'
 import Modify from './modify_elements/Modify'
 import JoiningData from './joining_data/JoiningData.jsx'
-import './d3.css'
 import HandlingEvents from './handling_events/HandlingEvents'
-import ControlFlow from './control_flow/ControlFlow'
+import Density from './density/Density'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -22,7 +22,7 @@ function D3() {
       ) : section === 'handling_events' ? (
         <HandlingEvents />
       ) : (
-        <ControlFlow />
+        <Density />
       )}
     </div>
   )

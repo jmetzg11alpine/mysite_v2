@@ -1,0 +1,91 @@
+#d3-density-container {
+  font-family: 'Inter';
+  max-width: 1120px;
+  height: 700px;
+  display: inline-block;
+  position: fixed;
+  margin-top: 15vh;
+  margin-left: 4vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#d3-density-header {
+  color: lightcoral;
+  text-align: center;
+  border-bottom: 2px solid rgb(250, 165, 165);
+  border-top: 2px solid rgb(250, 165, 165);
+  height: 100px;
+}
+
+#d3-density-header h1 {
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+}
+
+#d3-density-header p {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  margin-bottom: px;
+}
+
+#d3-density-chart {
+  width: 100%;
+  height: 500px;
+}
+
+#d3-density-chart svg {
+  width: 100%;
+  height: 500px;
+}
+
+#d3-density-output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#d3-density-output h3 {
+  color: rgb(250, 165, 165);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+#d3-density-output input {
+  border: 2px solid rgb(250, 165, 165);
+  border-radius: 5px;
+  color: rgb(250, 165, 165);
+  font-weight: 600;
+  font-size: 21px;
+  outline: none;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  margin: 0;
+  padding-left: 10px;
+}
+
+#d3-density-output p {
+  border: 2px solid rgb(250, 165, 165);
+  border-radius: 5px;
+  color: rgb(250, 165, 165);
+  font-weight: 600;
+  font-size: 21px;
+  width: 100px;
+  background-color: white;
+  margin: 0;
+  padding: 14px 0 0 10px;
+}
+
+#d3-density-output button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(255, 136, 136);
+  font-weight: 700;
+  height: 56px;
+  outline: none;
+  cursor: pointer;
+}

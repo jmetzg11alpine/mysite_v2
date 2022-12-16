@@ -21,6 +21,9 @@ const Header = ({ section, setSection }) => {
       <button onClick={handleClick} value='control_flow'>
         Dry Fruits
       </button>
+      <button onClick={handleClick} value='density'>
+        Pop. Density
+      </button>
     </div>
   )
 }
