@@ -7,6 +7,7 @@ import JoiningData from './joining_data/JoiningData.jsx'
 import HandlingEvents from './handling_events/HandlingEvents'
 import DryFruits from './dry_fruits/DryFruits'
 import Density from './density/Density'
+import VehicleDepreciation from './vehicle_depreciation/VehicleDepreciation'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -24,8 +25,10 @@ function D3() {
         <HandlingEvents />
       ) : section === 'dry_fruits' ? (
         <DryFruits />
-      ) : (
+      ) : section === 'density' ? (
         <Density />
+      ) : (
+        <VehicleDepreciation />
       )}
     </div>
   )

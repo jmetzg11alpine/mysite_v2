@@ -24,6 +24,9 @@ const Header = ({ section, setSection }) => {
       <button onClick={handleClick} value='density'>
         Pop. Density
       </button>
+      <button onClick={handleClick} value='vehicle_depreciation'>
+        Price Decrease
+      </button>
     </div>
   )
 }
