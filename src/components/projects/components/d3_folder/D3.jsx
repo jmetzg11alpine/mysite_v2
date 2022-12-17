@@ -8,6 +8,7 @@ import HandlingEvents from './handling_events/HandlingEvents'
 import DryFruits from './dry_fruits/DryFruits'
 import Density from './density/Density'
 import VehicleDepreciation from './vehicle_depreciation/VehicleDepreciation'
+import Temperature from './temperature/Temperature'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -27,8 +28,10 @@ function D3() {
         <DryFruits />
       ) : section === 'density' ? (
         <Density />
-      ) : (
+      ) : section === 'vehicle_depreciation' ? (
         <VehicleDepreciation />
+      ) : (
+        <Temperature />
       )}
     </div>
   )
