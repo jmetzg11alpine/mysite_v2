@@ -60,7 +60,7 @@ const Air = () => {
       <div id='d3-air-input'>
         <p>Enter a value between 0 and 300</p>
         <hr></hr>
-        <p>A value of > 240 will kill you!</p>
+        <p>A value of &gt; 240 will kill you!</p>
         <hr />
         <p>There are 7 air quality stages</p>
         <hr></hr>
