@@ -1,0 +1,61 @@
+#d3-cement-container {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+  /* margin-top: 10px; */
+}
+
+#d3-cement-warning {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 550;
+}
+
+#d3-cement-input {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  justify-content: space-around;
+  background-color: rgba(3, 110, 129, 0.75);
+  border-radius: 5px;
+}
+
+#d3-cement-input label {
+  font-size: 25px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+#d3-cement-input input,
+#d3-cement-input button {
+  background-color: white;
+  border: none;
+  font-size: 25px;
+  font-weight: 300;
+  outline: none;
+  border-radius: 5px;
+}
+
+#d3-cement-input button {
+  color: black;
+  padding: 2px;
+}
+
+#d3-cement-input button {
+  cursor: pointer;
+}
+
+#d3-cement-output svg {
+  width: 380px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#d3-cement-output svg rect {
+  height: 100%;
+  width: 100%;
+}

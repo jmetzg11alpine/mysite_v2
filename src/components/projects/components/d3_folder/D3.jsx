@@ -9,6 +9,9 @@ import DryFruits from './dry_fruits/DryFruits'
 import Density from './density/Density'
 import VehicleDepreciation from './vehicle_depreciation/VehicleDepreciation'
 import Temperature from './temperature/Temperature'
+import WineColors from './wine_colors/WineColors'
+import Employees from './employees/Employees'
+import Air from './air/Air'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -30,8 +33,14 @@ function D3() {
         <Density />
       ) : section === 'vehicle_depreciation' ? (
         <VehicleDepreciation />
-      ) : (
+      ) : section === 'temperature' ? (
         <Temperature />
+      ) : section === 'wine_colors' ? (
+        <WineColors />
+      ) : section === 'employees' ? (
+        <Employees />
+      ) : (
+        <Air />
       )}
     </div>
   )
