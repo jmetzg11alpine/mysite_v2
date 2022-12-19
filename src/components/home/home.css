@@ -1,0 +1,28 @@
+.home-intro {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background: #eff1f3;
+  padding: 10px;
+  height: 2.5vw;
+  padding-top: 25px;
+}
+
+.home-intro h3 {
+  margin-right: 10px;
+  font-size: 2vw;
+  color: #034078;
+}
+
+.home-intro p {
+  font-size: 1.5vw;
+  color: #034078;
+}
+
+.home-container h1 {
+  font-size: 2vw;
+}
+
+.home-container p {
+  font-size: 1vw;
+}
