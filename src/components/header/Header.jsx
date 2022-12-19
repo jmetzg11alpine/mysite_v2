@@ -7,22 +7,21 @@ const Header = () => {
   const [headerHeight, setHeaderHeight] = useState(0)
   const [headerWidth, setHeaderWidth] = useState()
   const svgRef = useRef()
-  console.log(headerHeight, headerWidth)
   d3.select(svgRef.current)
     .select('ellipse')
-    .attr('cx', headerWidth * 0.15)
-    .attr('cy', headerHeight * 0.75)
+    .attr('cx', headerWidth * 0.05)
+    .attr('cy', headerHeight * 0.68)
     .attr('rx', headerHeight * 0.55)
-    .attr('ry', headerHeight * 0.4)
+    .attr('ry', headerHeight * 0.35)
     .style('fill', '#034078')
   d3.select(svgRef.current)
     .select('text')
-    .attr('x', headerWidth * 0.12)
-    .attr('y', headerHeight * 0.85)
+    .attr('x', headerWidth * 0.036)
+    .attr('y', headerHeight * 0.82)
     .text('JM')
     .style('fill', 'white')
     .style('anchor-text', 'middle')
-    .style('font-size', headerWidth * 0.045)
+    .style('font-size', headerWidth * 0.0225)
     .style('font-style', 'bold')
     .style('font-family', 'Montserrat')
 
@@ -34,10 +33,13 @@ const Header = () => {
 
   return (
     <div ref={svgRef} className='header'>
-      <svg>
-        <ellipse></ellipse>
-        <text></text>
-      </svg>
+      <div className='header-svg-container'>
+        <svg>
+          <ellipse></ellipse>
+          <text></text>
+        </svg>
+      </div>
+
       <div className='header-link-container'>
         <Link to='/' className='header-link'>
           Home
