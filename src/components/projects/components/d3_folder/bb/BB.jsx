@@ -7,7 +7,6 @@ const BB = () => {
   const [two, setTwo] = useState('0')
   const [three, setThree] = useState('0')
   const svgRef = useRef()
-  console.log('2' * 3)
 
   const handleClick = () => {
     d3.select(svgRef.current).select('svg').selectAll('*').remove()

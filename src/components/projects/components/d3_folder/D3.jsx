@@ -13,6 +13,7 @@ import WineColors from './wine_colors/WineColors'
 import Employees from './employees/Employees'
 import Air from './air/Air'
 import BB from './bb/BB'
+import University from './university/University'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -42,8 +43,10 @@ function D3() {
         <Employees />
       ) : section === 'air' ? (
         <Air />
-      ) : (
+      ) : section === 'bb' ? (
         <BB />
+      ) : (
+        <University />
       )}
     </div>
   )
