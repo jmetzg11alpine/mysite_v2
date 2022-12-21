@@ -126,7 +126,7 @@ const University = () => {
   return (
     <div ref={svgRef} id='d3-uni-container'>
       <div id='d3-uni-header'>
-        <h2>Undergraduate Enrollment in USA by Gender</h2>
+        <h2>Undergraduate Enrollment in USA</h2>
         <p>
           Female and Male enrollment number in '000s | 1970-1990 every 5 year
           period
