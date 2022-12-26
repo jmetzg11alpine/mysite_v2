@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d3-google-container {
+  width: 800px;
+  height: 765px;
+  margin: auto;
+  top: 8vw;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  position: fixed;
+  border-radius: 5px;
+  border: 1.5px solid lightblue;
+}
+
+#d3-google-header {
+  height: 100px;
+  width: 95%;
+  margin: auto;
+  line-height: 22px;
+  text-align: center;
+  padding: 0;
+}
+
+#d3-google-header h2,
+#d3-google-header p {
+  color: gray;
+  margin-bottom: 7px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  background-color: lightgray;
+  height: 1.5px;
+  margin: 0;
+  margin: 5px 0;
+}
+
+#d3-google-chart {
+  height: 600px;
+  width: 95%;
+  margin: auto;
+}
+
+#d3-google-chart svg {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(246, 246, 246);
+  border-radius: 5px;
+}
+
+#d3-google-note {
+  text-align: center;
+}
+
+#d3-google-note p {
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#d3-google-legend,
+#d3-google-legend div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#d3-google-legend div p {
+  color: gray;
+  margin: 0;
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#d3-google-below,
+#d3-google-above {
+  height: 10px;
+  width: 20px;
+  border-radius: 2px;
+}
+
+#d3-google-below {
+  background: #aed6f1;
+}
+
+#d3-google-above {
+  background: #2874a6;
+}
+
+.domain,
+.tick line {
+  stroke: grey;
+}
+
+.tick text {
+  color: grey;
+  font-size: 12px;
+  font-weight: 500;
+}
