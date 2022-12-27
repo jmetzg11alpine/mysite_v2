@@ -4,9 +4,11 @@
   width: 700px;
   margin: auto;
   border: 2px solid lightgray;
-  display: inline-block;
+  /* display: inline-block; */
   border-radius: 5px;
-  position: fixed;
+  /* position: fixed; */
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   top: 15%;
   right: 0;
   bottom: 0;

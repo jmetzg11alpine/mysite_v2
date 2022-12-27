@@ -15,6 +15,7 @@ import Air from './air/Air'
 import BB from './bb/BB'
 import University from './university/University'
 import Google from './google/Google'
+import Sales from './sales/Sales'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -48,8 +49,10 @@ function D3() {
         <BB />
       ) : section === 'university' ? (
         <University />
-      ) : (
+      ) : section === 'google' ? (
         <Google />
+      ) : (
+        <Sales />
       )}
     </div>
   )

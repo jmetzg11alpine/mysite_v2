@@ -1,14 +1,16 @@
 #d3-air-container {
   height: 530px;
   width: 380px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('air.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('air.jpg');
   margin: auto;
   border-radius: 15px;
   background-position: center;
   background-repeat: no-repeat;
-  display: inline-block;
-  position: fixed;
+  /* display: inline-block;
+  position: fixed; */
+  /* margin: 5vw 5vw; */
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   top: 0;
   right: 0;
   bottom: 0;

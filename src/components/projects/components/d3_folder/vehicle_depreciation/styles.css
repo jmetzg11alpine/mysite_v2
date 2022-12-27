@@ -2,8 +2,10 @@
   max-width: 70%;
   margin: auto;
   height: 700px;
-  display: inline-block;
-  position: fixed;
+  /* display: inline-block;
+  position: fixed; */
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   top: 15%;
   right: 0;
   bottom: 0;

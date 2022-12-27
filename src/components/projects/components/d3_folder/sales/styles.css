@@ -1,0 +1,111 @@
+.d3-sales-container {
+  height: 825px;
+  width: 1000px;
+  /* display: inline-block; */
+  /* position: fixed; */
+  margin: auto;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  top: 15vw;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1.5px dashed dimgray;
+  border-radius: 5px;
+}
+
+#d3-sales-header {
+  width: 95%;
+  height: 50px;
+  margin: auto;
+}
+
+#d3-sales-header h1 {
+  font-weight: 400;
+  color: dimgray;
+  vertical-align: middle;
+  line-height: 50px;
+  margin: 0;
+}
+
+.d3-sales-container hr {
+  border: none;
+  border-top: 1.5px dashed dimgray;
+  margin: 0;
+}
+
+#d3-sales-charts {
+  width: 95%;
+  height: 720px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#d3-sales-row1,
+#d3-sales-row2 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#d3-sales-row1 div {
+  width: 50%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#d3-sales-row2 div {
+  width: 50%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.d3-sales-container p {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: dimgray;
+  margin: 2px;
+  text-align: center;
+}
+
+#d3-sales-row1 svg {
+  width: 100%;
+  height: 90%;
+}
+
+#d3-sales-row2 svg {
+  width: 100%;
+  height: 90%;
+}
+
+#d3-sales-legend {
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#d3-sales-legend p {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  margin: auto;
+  font-weight: 500;
+  color: dimgray;
+}
+
+.domain,
+.tick line {
+  stroke: lightgray;
+}
+
+.tick text {
+  fill: gray;
+  font-size: 10px;
+  font-weight: 500;
+}

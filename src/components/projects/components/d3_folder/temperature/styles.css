@@ -2,13 +2,14 @@
   font-family: 'Inter';
   height: 800px;
   width: 960px;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('moscow.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('moscow.jpeg');
   background-size: cover;
   margin: auto;
   background-repeat: no-repeat;
-  display: inline-block;
-  position: fixed;
+  /* display: inline-block;
+  position: fixed; */
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   top: 10%;
   right: 0;
   bottom: 0;

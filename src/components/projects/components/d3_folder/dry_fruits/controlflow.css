@@ -3,12 +3,13 @@
   max-width: 70%;
   margin: auto;
   height: 700px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
-    url('./dryfruits.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('./dryfruits.jpg');
   background-repeat: no-repeat;
   border-radius: 1em;
-  display: inline-block;
-  position: fixed;
+  /* display: inline-block;
+  position: fixed; */
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   top: 15%;
   right: 0;
   bottom: 0;
