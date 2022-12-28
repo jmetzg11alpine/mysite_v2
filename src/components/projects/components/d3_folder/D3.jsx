@@ -49,10 +49,10 @@ function D3() {
         <Google />
       ) : section === 'sales' ? (
         <Sales />
-      ) : section === 'stocks' ? (
-        <Stocks />
-      ) : (
+      ) : section === 'tesla' ? (
         <Tesla />
+      ) : (
+        <Stocks />
       )}
     </div>
   )

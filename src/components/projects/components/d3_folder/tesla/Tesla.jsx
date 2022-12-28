@@ -16,7 +16,6 @@ const Tesla = () => {
   const [maxPrice, setMaxPrice] = useState(0)
   const [maxPower, setMaxPower] = useState(0)
   const svg = d3.select(teslaContainer.current).select('svg')
-  const BUFFER = 50
   const COLOR = d3.interpolate('#00bbf9', '#f07167')
   const handleClick = (e) => {
     let id = e.target.id

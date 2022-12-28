@@ -1,0 +1,53 @@
+#d3-stocks-container {
+  width: 800px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+#d3-stocks-header {
+  height: 50px;
+  width: 95%;
+  margin: auto;
+  line-height: 50px;
+}
+
+#d3-stocks-header h1 {
+  color: cornflowerblue;
+  margin: 5px;
+}
+
+#d3-stocks-container hr {
+  outline: none;
+  border: none;
+  height: 2px;
+  background-color: cornflowerblue;
+  margin: 2px;
+}
+
+#d3-stocks-chart {
+  width: 95%;
+  height: 650px;
+  margin: auto;
+}
+
+#d3-stocks-chart svg {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.domain,
+.tick line {
+  stroke: cornflowerblue;
+}
+
+.tick text {
+  fill: cornflowerblue;
+  font-size: 10px;
+  font-weight: 600;
+}
