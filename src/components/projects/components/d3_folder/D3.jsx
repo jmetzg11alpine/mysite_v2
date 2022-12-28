@@ -15,6 +15,7 @@ import University from './university/University'
 import Google from './google/Google'
 import Sales from './sales/Sales'
 import Tesla from './tesla/Tesla'
+import Stocks from './stocks/Stocks'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -48,6 +49,8 @@ function D3() {
         <Google />
       ) : section === 'sales' ? (
         <Sales />
+      ) : section === 'stocks' ? (
+        <Stocks />
       ) : (
         <Tesla />
       )}

@@ -40,6 +40,55 @@ const Tesla = () => {
       d3.select(n[i]).style('background', COLOR((i + 1) / 5))
     })
 
+  const draw = (xAxisScale, yAxisLeftScale, yAxisRightScale) => {
+    // making circles for range and price
+    svg
+      .append('g')
+      .attr('id', 'circles')
+      .selectAll('cirlce')
+      .data(data)
+      .join('circle')
+      .attr('cx', (d) => xAxisScale(d.price))
+      .attr('cy', (d) => yAxisLeftScale(d.range))
+      .style('fill', (d, i) => COLOR((i + 1) / 5))
+      .style('fill-opacity', '0.8')
+      .style('stroke', (d, i) => COLOR((i + 1) / 5))
+      .style('stroke-width', '2')
+    svg
+      .select('#circles')
+      .selectAll('circle')
+      .transition()
+      .duration(1200)
+      .attr('r', (d) => d.cargoSpace / 1.75)
+    svg
+      .append('g')
+      .attr('id', 'circlesDots')
+      .selectAll('cirlce')
+      .data(data)
+      .join('circle')
+      .attr('cx', (d) => xAxisScale(d.price))
+      .attr('cy', (d) => yAxisLeftScale(d.range))
+      .style('fill', 'black')
+      .attr('r', '2')
+    // making rect elements
+    svg
+      .append('g')
+      .attr('id', 'rects')
+      .selectAll('rect')
+      .data(data)
+      .join('rect')
+      .attr('x', (d) => xAxisScale(d.price))
+      .attr('y', (d) => yAxisRightScale(d.power))
+      .attr('width', '3')
+      .style('fill', (d, i) => COLOR((i + 1) / 5))
+    svg
+      .select('#rects')
+      .selectAll('rect')
+      .transition()
+      .duration(1200)
+      .attr('height', (d) => svgHeight - yAxisRightScale(d.power))
+  }
+
   useEffect(() => {
     const svg = d3.select(teslaContainer.current).select('svg')
     svg.selectAll('*').remove()
@@ -84,8 +133,8 @@ const Tesla = () => {
     yAxisRightGroup.transition().duration(1000).attr('transform', `translate(${svgWidth},0)`)
     yAxisRight(yAxisRightGroup)
     // bottom axis
-    const xAxiscale = d3.scaleLinear().domain([0, maxPrice]).range([BUFFER, svgWidth]).nice()
-    const xAxis = d3.axisBottom(xAxiscale)
+    const xAxisScale = d3.scaleLinear().domain([0, maxPrice]).range([BUFFER, svgWidth]).nice()
+    const xAxis = d3.axisBottom(xAxisScale)
     d3.formatDefaultLocale({
       currency: ['$', ' '],
     })
@@ -93,52 +142,10 @@ const Tesla = () => {
     const xAxisGrounp = svg.append('g').attr('id', 'xAxisGroup')
     xAxisGrounp.transition().duration(1000).attr('transform', `translate(0,${svgHeight})`)
     xAxis(xAxisGrounp)
-    // making circles for range and price
-    svg
-      .append('g')
-      .attr('id', 'circles')
-      .selectAll('cirlce')
-      .data(data)
-      .join('circle')
-      .attr('cx', (d) => xAxiscale(d.price))
-      .attr('cy', (d) => yAxisLeftScale(d.range))
-      .style('fill', (d, i) => COLOR((i + 1) / 5))
-      .style('fill-opacity', '0.8')
-      .style('stroke', (d, i) => COLOR((i + 1) / 5))
-      .style('stroke-width', '2')
-    svg
-      .select('#circles')
-      .selectAll('circle')
-      .transition()
-      .duration(1200)
-      .attr('r', (d) => d.cargoSpace / 1.75)
-    svg
-      .append('g')
-      .attr('id', 'circlesDots')
-      .selectAll('cirlce')
-      .data(data)
-      .join('circle')
-      .attr('cx', (d) => xAxiscale(d.price))
-      .attr('cy', (d) => yAxisLeftScale(d.range))
-      .style('fill', 'black')
-      .attr('r', '2')
-    // making rect elements
-    svg
-      .append('g')
-      .attr('id', 'rects')
-      .selectAll('rect')
-      .data(data)
-      .join('rect')
-      .attr('x', (d) => xAxiscale(d.price))
-      .attr('y', (d) => yAxisRightScale(d.power))
-      .attr('width', '3')
-      .style('fill', (d, i) => COLOR((i + 1) / 5))
-    svg
-      .select('#rects')
-      .selectAll('rect')
-      .transition()
-      .duration(1200)
-      .attr('height', (d) => svgHeight - yAxisRightScale(d.power))
+
+    if (data) {
+      draw(xAxisScale, yAxisLeftScale, yAxisRightScale)
+    }
   }, [svgWidth, svgHeight, maxPrice, maxPower, maxRange])
   return (
     <div ref={teslaContainer} className='d3-tesla-container'>
