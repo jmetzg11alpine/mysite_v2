@@ -54,6 +54,9 @@ const Header = ({ section, setSection }) => {
       <button onClick={handleClick} value='spending'>
         Spending
       </button>
+      <button onClick={handleClick} value='airport'>
+        Airport
+      </button>
     </div>
   )
 }

@@ -17,6 +17,7 @@ import Sales from './sales/Sales'
 import Tesla from './tesla/Tesla'
 import Stocks from './stocks/Stocks'
 import BusinessSpending from './business_spending/BusinessSpending'
+import Airport from './airport/Airport'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -54,8 +55,10 @@ function D3() {
         <Tesla />
       ) : section === 'stocks' ? (
         <Stocks />
-      ) : (
+      ) : section === 'spending' ? (
         <BusinessSpending />
+      ) : (
+        <Airport />
       )}
     </div>
   )
