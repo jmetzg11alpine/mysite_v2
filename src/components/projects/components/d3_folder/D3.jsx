@@ -18,6 +18,7 @@ import Tesla from './tesla/Tesla'
 import Stocks from './stocks/Stocks'
 import BusinessSpending from './business_spending/BusinessSpending'
 import Airport from './airport/Airport'
+import R_AND_D from './r_and_d/R_AND_D'
 
 function D3() {
   const [section, setSection] = useState('')
@@ -57,8 +58,10 @@ function D3() {
         <Stocks />
       ) : section === 'spending' ? (
         <BusinessSpending />
-      ) : (
+      ) : section === 'airport' ? (
         <Airport />
+      ) : (
+        <R_AND_D />
       )}
     </div>
   )
