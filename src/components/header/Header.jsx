@@ -53,8 +53,8 @@ const Header = () => {
         <Link to='/quiz' className='header-link'>
           Quiz
         </Link>
-        <Link to='/world' className='header-link'>
-          World
+        <Link to='/stocks' className='header-link'>
+          Stocks
         </Link>
         <Link to='/projects' className='header-link'>
           Projects
