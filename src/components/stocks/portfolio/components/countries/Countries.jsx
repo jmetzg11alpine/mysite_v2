@@ -104,7 +104,7 @@ const Countries = () => {
   return (
     <div ref={svgRef} id='stocks-countries-container'>
       <div id='stocks-countries-header'>
-        <h1>Geographical distribution</h1>
+        <h1>Geographical Distribution</h1>
       </div>
       <hr />
       <div id='stocks-countries-chart'>

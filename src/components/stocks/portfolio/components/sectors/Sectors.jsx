@@ -112,7 +112,7 @@ const Sectors = () => {
   return (
     <div ref={svgRef} id='stocks-sectors-container'>
       <div id='stocks-sectors-header'>
-        <h1>Sector distribution</h1>
+        <h1>Sector Distribution</h1>
       </div>
       <hr />
       <div id='stocks-sectors-chart'>

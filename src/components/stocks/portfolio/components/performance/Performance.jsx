@@ -94,7 +94,7 @@ const Performance = () => {
   return (
     <div ref={svgRef} id='stocks-performance-container'>
       <div id='stocks-performance-header'>
-        <h1>Performance of investments</h1>
+        <h1>Performance of Investments</h1>
       </div>
       <hr />
       <div id='stocks-performance-chart'>
