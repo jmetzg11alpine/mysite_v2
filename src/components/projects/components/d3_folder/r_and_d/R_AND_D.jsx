@@ -3,7 +3,7 @@ import * as d3 from 'd3'
 import './styles.css'
 
 const R_AND_D = () => {
-  const [text, setText] = useState('donkey')
+  const [text, setText] = useState('select a slice')
   const svgRef = useRef()
 
   function handleHover(e, d) {
