@@ -28,3 +28,29 @@
   background-color: #034078;
   color: white;
 }
+
+.header-svg-container {
+  margin: 0;
+  height: 10vh;
+}
+
+.header-svg-container svg {
+  height: 100%;
+}
+
+.header-logo-container {
+  background: #034078;
+  margin: 0;
+  height: 80%;
+  width: 4.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4vw;
+}
+
+.header-logo-container p {
+  font-style: bold;
+  color: white;
+  font-size: 2.2vw;
+}
