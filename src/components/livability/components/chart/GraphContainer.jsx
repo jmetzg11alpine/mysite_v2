@@ -3,6 +3,7 @@ import ChartPrepper from '../chartPrepper/ChartPrepper'
 import FitContainer from './FitContainer'
 import Selector from './Selector'
 import Glossary from '../Glossary'
+import './styles.css'
 
 const GraphContainer = () => {
   const [city, setCity] = useState('Phoenix')
@@ -33,31 +34,17 @@ const GraphContainer = () => {
   }
 
   return (
-    <div className='container'>
+    <div className='livibility-container'>
       <Selector setCity={setCity} options={options} setOptions={setOptions} />
       <h1 className='city_title'>{city}</h1>
       <div className='box'>
         <div className='fit_container'>
           <h3 className='fit_title'>Resembles other cities</h3>
-          <FitContainer
-            categories={fit}
-            cityInfo={cityInfo}
-            data={data}
-            city={city}
-            fit={1}
-            direction={fit_direction}
-          />
+          <FitContainer categories={fit} cityInfo={cityInfo} data={data} city={city} fit={1} direction={fit_direction} />
         </div>
         <div className='fit_container'>
           <h3 className='fit_title'>Doesn't resembles other cities</h3>
-          <FitContainer
-            categories={no_fit}
-            cityInfo={cityInfo}
-            data={data}
-            city={city}
-            fit={0}
-            direction={no_fit_direction}
-          />
+          <FitContainer categories={no_fit} cityInfo={cityInfo} data={data} city={city} fit={0} direction={no_fit_direction} />
         </div>
       </div>
       <Glossary />
